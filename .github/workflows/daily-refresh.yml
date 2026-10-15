@@ -1,37 +1,69 @@
-name: Daily index refresh
+name: daily-refresh
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * *' # daily at 06:00 UTC
   workflow_dispatch:
 
-jobs:
-  build-and-commit:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-      - name: Set up Node.js
+jobs:
+  update-build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate applications.json from org repos
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const org = 'CDLI-NLSchools';
+            const perPage = 100;
+            let page = 1;
+            let all = [];
+            while (true) {
+              const { data: repos } = await github.rest.repos.listForOrg({
+                org,
+                type: 'public',
+                per_page: perPage,
+                page
+              });
+              if (!repos || repos.length === 0) break;
+              all = all.concat(repos);
+              page++;
+            }
+            // Map repo fields into the applications.json shape. Adjust as needed.
+            const apps = all.map(r => ({
+              name: r.name,
+              category: 'Repository',
+              status: r.archived ? 'archived' : 'active',
+              url: r.html_url,
+              tags: r.topics || []
+            }));
+            fs.mkdirSync('public/data', { recursive: true });
+            fs.writeFileSync('public/data/applications.json', JSON.stringify(apps, null, 2));
+            console.log(`Wrote public/data/applications.json with ${apps.length} entries`);
+
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version: 18
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Run updater
-        run: npm run update-index
+        run: npm ci
 
       - name: Build site
         run: npm run build
 
-      - name: Commit and push generated docs
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs
-          git commit -m "Daily site refresh [skip ci]" || echo "No changes to commit"
-          git push
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./docs
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v5
