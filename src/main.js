@@ -26,6 +26,22 @@ async function render() {
       meta.textContent = `${a.category || ''}${a.status ? ' · ' + a.status : ''}`;
       li.appendChild(meta);
 
+      if (a.description) {
+        const desc = document.createElement('div');
+        desc.className = 'description';
+        desc.textContent = a.description;
+        li.appendChild(desc);
+      }
+
+      if (a.repo) {
+        const repoLink = document.createElement('a');
+        repoLink.href = a.repo;
+        repoLink.textContent = 'Source';
+        repoLink.target = '_blank';
+        repoLink.className = 'repo-link';
+        li.appendChild(repoLink);
+      }
+
       ul.appendChild(li);
     });
 
