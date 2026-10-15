@@ -1,9 +1,107 @@
 [
   {
-    "name": "Sample App",
-    "category": "Tool",
+    "name": "RelativeMotionDemonstration",
+    "description": "",
+    "category": "Interactive",
     "status": "active",
-    "url": "https://example.com",
-    "tags": ["sample","demo"]
+    "url": "https://cdli-nlschools.github.io/RelativeMotionDemonstration/",
+    "repo": "https://github.com/CDLI-NLSchools/RelativeMotionDemonstration",
+    "tags": []
+  },
+  {
+    "name": "NoTime",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/NoTime/",
+    "repo": "https://github.com/CDLI-NLSchools/NoTime",
+    "tags": []
+  },
+  {
+    "name": "NoFinal",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/NoFinal/",
+    "repo": "https://github.com/CDLI-NLSchools/NoFinal",
+    "tags": []
+  },
+  {
+    "name": "NoAcceleration",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/NoAcceleration/",
+    "repo": "https://github.com/CDLI-NLSchools/NoAcceleration",
+    "tags": []
+  },
+  {
+    "name": "NoInitial",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/NoInitial/",
+    "repo": "https://github.com/CDLI-NLSchools/NoInitial",
+    "tags": []
+  },
+  {
+    "name": "NoDisplacement",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/NoDisplacement/",
+    "repo": "https://github.com/CDLI-NLSchools/NoDisplacement",
+    "tags": []
+  },
+  {
+    "name": "LearnersTestPrep",
+    "description": "",
+    "category": "drivers-license",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/LearnersTestPrep/",
+    "repo": "https://github.com/CDLI-NLSchools/LearnersTestPrep",
+    "tags": [
+      "drivers-license"
+    ]
+  },
+  {
+    "name": "StickyMomentum",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/StickyMomentum/",
+    "repo": "https://github.com/CDLI-NLSchools/StickyMomentum",
+    "tags": []
+  },
+  {
+    "name": "French-Version-Land-and-Sea",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/French-Version-Land-and-Sea/",
+    "repo": "https://github.com/CDLI-NLSchools/French-Version-Land-and-Sea",
+    "tags": []
+  },
+  {
+    "name": "FrenchWinds",
+    "description": "",
+    "category": "science1206",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/FrenchWinds/",
+    "repo": "https://github.com/CDLI-NLSchools/FrenchWinds",
+    "tags": [
+      "science1206",
+      "science2200",
+      "weather"
+    ]
+  },
+  {
+    "name": "3204ProjectileReferenceFrame",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/3204ProjectileReferenceFrame/",
+    "repo": "https://github.com/CDLI-NLSchools/3204ProjectileReferenceFrame",
+    "tags": []
   }
 ]
