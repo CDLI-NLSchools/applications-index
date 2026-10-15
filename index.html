@@ -3,13 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Applications index</title>
+    <title>Applications Index — CDLI · NLSchools</title>
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
     <div id="app">
-      <h1>Applications index</h1>
+      <header class="site-header">
+        <div class="logos">
+          <img src="cdli-logo.png" alt="CDLI — Centre for Distance Learning and Innovation" onerror="this.style.display='none'" />
+          <img src="nlschools-logo.png" alt="NLSchools" onerror="this.style.display='none'" />
+        </div>
+        <h1>Applications Index</h1>
+        <p class="preamble">
+          Interactive learning applications created by educators in the CDLI and
+          NLSchools community. Each application opens in a browser and can be
+          embedded in Brightspace. New applications appear here automatically
+          as they are published.
+        </p>
+      </header>
+      <div class="controls">
+        <label class="sort-label">Sort by
+          <select id="sort">
+            <option value="name">Name (A–Z)</option>
+            <option value="topic">Topic</option>
+            <option value="newest">Newest first</option>
+            <option value="updated">Recently updated</option>
+          </select>
+        </label>
+        <div id="topics" class="topics"></div>
+      </div>
       <div id="list">Loading…</div>
+      <footer class="site-footer">
+        <span id="count"></span> · refreshed daily
+      </footer>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
