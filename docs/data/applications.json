@@ -130,22 +130,6 @@
     "updated_at": "2026-10-15T12:57:46Z"
   },
   {
-    "name": "course-template-demo",
-    "description": "Course template repo for CDLI-NLSchools \u2014 instructor-facing template with assignments, lessons, submission guidelines, and CI examples.",
-    "category": "Interactive",
-    "status": "active",
-    "url": "https://cdli-nlschools.github.io/course-template-demo/",
-    "repo": "https://github.com/CDLI-NLSchools/course-template-demo",
-    "tags": [],
-    "creator": {
-      "login": "jasoncounsel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
-      "url": "https://github.com/jasoncounsel"
-    },
-    "created_at": "2026-10-13T19:03:43Z",
-    "updated_at": "2026-10-13T19:03:49Z"
-  },
-  {
     "name": "French-Version-Land-and-Sea",
     "description": "",
     "category": "Interactive",
@@ -180,22 +164,6 @@
     },
     "created_at": "2026-10-14T12:27:17Z",
     "updated_at": "2026-10-14T16:21:51Z"
-  },
-  {
-    "name": "demo-repository",
-    "description": "A code repository designed to show the best GitHub has to offer.",
-    "category": "Interactive",
-    "status": "active",
-    "url": "https://cdli-nlschools.github.io/demo-repository/",
-    "repo": "https://github.com/CDLI-NLSchools/demo-repository",
-    "tags": [],
-    "creator": {
-      "login": "jasoncounsel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
-      "url": "https://github.com/jasoncounsel"
-    },
-    "created_at": "2026-10-14T18:35:27Z",
-    "updated_at": "2026-10-14T18:35:34Z"
   },
   {
     "name": "3204ProjectileReferenceFrame",
