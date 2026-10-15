@@ -12,6 +12,120 @@ function fmtDate(iso) {
   return new Date(iso).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
+function embedCode(a, height) {
+  const title = (a.name || 'Application').replace(/"/g, '&quot;');
+  return `<iframe src="${a.url}" width="100%" height="${height}" style="border:0;" title="${title}" allowfullscreen></iframe>`;
+}
+
+async function copyText(text, btn) {
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch (e) {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    ta.remove();
+  }
+  const orig = btn.textContent;
+  btn.textContent = 'Copied!';
+  setTimeout(() => { btn.textContent = orig; }, 1500);
+}
+
+let openPop = null;
+function closeShare() {
+  if (openPop) { openPop.remove(); openPop = null; }
+  document.removeEventListener('click', outsideClose);
+}
+function outsideClose(e) {
+  if (openPop && !openPop.contains(e.target)) closeShare();
+}
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeShare(); });
+
+function toggleShare(a, btn) {
+  if (openPop && openPop.dataset.app === a.name) { closeShare(); return; }
+  closeShare();
+
+  const pop = document.createElement('div');
+  pop.className = 'share-pop';
+  pop.dataset.app = a.name;
+  pop.addEventListener('click', (e) => e.stopPropagation());
+
+  const copyLink = document.createElement('button');
+  copyLink.type = 'button';
+  copyLink.className = 'share-action';
+  copyLink.textContent = 'Copy link';
+  copyLink.addEventListener('click', () => copyText(a.url, copyLink));
+  pop.appendChild(copyLink);
+
+  const emb = document.createElement('div');
+  emb.className = 'share-embed';
+  const lab = document.createElement('span');
+  lab.className = 'share-label';
+  lab.textContent = 'Embed in Brightspace';
+  emb.appendChild(lab);
+
+  const sel = document.createElement('select');
+  [['480', 'Small — 480px tall'], ['640', 'Medium — 640px tall'], ['800', 'Large — 800px tall']].forEach(([v, t]) => {
+    const o = document.createElement('option');
+    o.value = v;
+    o.textContent = t;
+    if (v === '640') o.selected = true;
+    sel.appendChild(o);
+  });
+  emb.appendChild(sel);
+
+  const code = document.createElement('textarea');
+  code.readOnly = true;
+  code.rows = 3;
+  code.className = 'embed-code';
+  const refresh = () => { code.value = embedCode(a, sel.value); };
+  sel.addEventListener('change', refresh);
+  refresh();
+  emb.appendChild(code);
+
+  const copyEmb = document.createElement('button');
+  copyEmb.type = 'button';
+  copyEmb.className = 'share-action';
+  copyEmb.textContent = 'Copy embed code';
+  copyEmb.addEventListener('click', () => copyText(code.value, copyEmb));
+  emb.appendChild(copyEmb);
+  pop.appendChild(emb);
+
+  if (a.download_url) {
+    const dl = document.createElement('button');
+    dl.type = 'button';
+    dl.className = 'share-action';
+    dl.textContent = 'Download HTML file';
+    dl.addEventListener('click', async () => {
+      const orig = dl.textContent;
+      dl.textContent = 'Downloading…';
+      try {
+        const res = await fetch(a.download_url);
+        if (!res.ok) throw new Error('fetch failed');
+        const blob = await res.blob();
+        const url = URL.createObjectURL(blob);
+        const tmp = document.createElement('a');
+        tmp.href = url;
+        tmp.download = a.name + '.html';
+        document.body.appendChild(tmp);
+        tmp.click();
+        tmp.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 5000);
+      } catch (e) {
+        window.open(a.download_url, '_blank');
+      }
+      dl.textContent = orig;
+    });
+    pop.appendChild(dl);
+  }
+
+  btn.closest('.card').appendChild(pop);
+  openPop = pop;
+  setTimeout(() => document.addEventListener('click', outsideClose), 0);
+}
+
 function filtered() {
   if (activeTopic === 'all') return apps.slice();
   return apps.filter(a => (a.tags || []).includes(activeTopic));
@@ -90,6 +204,13 @@ function card(a) {
     src.textContent = 'Source';
     meta.appendChild(src);
   }
+
+  const shareBtn = document.createElement('button');
+  shareBtn.type = 'button';
+  shareBtn.className = 'share-btn';
+  shareBtn.textContent = 'Share';
+  shareBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleShare(a, shareBtn); });
+  meta.appendChild(shareBtn);
 
   li.appendChild(meta);
 
