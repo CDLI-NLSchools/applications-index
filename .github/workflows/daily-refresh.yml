@@ -22,7 +22,7 @@ jobs:
             const fs = require('fs');
             const org = 'cdli-nlschools';
             // Repos that are infrastructure, not student-facing applications
-            const excluded = new Set(['applications-index', 'cdli-template-sim']);
+            const excluded = new Set(['applications-index', 'cdli-template-sim', 'course-template-demo', 'demo-repository']);
             const repos = await github.paginate(github.rest.repos.listForOrg, { org, type: 'public', per_page: 100 });
             const live = repos.filter(r => !r.archived && !excluded.has(r.name));
             const apps = [];
