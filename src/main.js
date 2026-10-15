@@ -1,6 +1,6 @@
 let apps = [];
 let sortMode = 'name';
-let activeTopic = 'all';
+let activeTopics = new Set();
 
 const listEl = document.getElementById('list');
 const topicsEl = document.getElementById('topics');
@@ -127,8 +127,8 @@ function toggleShare(a, btn) {
 }
 
 function filtered() {
-  if (activeTopic === 'all') return apps.slice();
-  return apps.filter(a => (a.tags || []).includes(activeTopic));
+  if (activeTopics.size === 0) return apps.slice();
+  return apps.filter(a => (a.tags || []).some(t => activeTopics.has(t)));
 }
 
 function sorted(list) {
@@ -222,7 +222,8 @@ function card(a) {
       chip.type = 'button';
       chip.className = 'tag';
       chip.textContent = t;
-      chip.addEventListener('click', () => { setTopic(t); });
+      chip.title = 'Filter by this topic';
+      chip.addEventListener('click', () => { toggleTopic(t); });
       tags.appendChild(chip);
     });
     li.appendChild(tags);
@@ -236,7 +237,7 @@ function render() {
   listEl.innerHTML = '';
 
   if (list.length === 0) {
-    listEl.innerText = activeTopic === 'all' ? 'No applications found.' : 'No applications with this topic yet.';
+    listEl.innerText = activeTopics.size === 0 ? 'No applications found.' : 'No applications match the selected topics.';
     return;
   }
 
@@ -280,23 +281,32 @@ function renderTopics() {
 
   const all = document.createElement('button');
   all.type = 'button';
-  all.className = 'topic-chip' + (activeTopic === 'all' ? ' active' : '');
+  all.className = 'topic-chip' + (activeTopics.size === 0 ? ' active' : '');
   all.textContent = `All (${apps.length})`;
-  all.addEventListener('click', () => setTopic('all'));
+  all.title = 'Clear topic selection';
+  all.addEventListener('click', () => setTopics(new Set()));
   topicsEl.appendChild(all);
 
   topics.forEach(t => {
     const b = document.createElement('button');
     b.type = 'button';
-    b.className = 'topic-chip' + (activeTopic === t ? ' active' : '');
+    b.className = 'topic-chip' + (activeTopics.has(t) ? ' active' : '');
     b.textContent = `${t} (${counts[t]})`;
-    b.addEventListener('click', () => setTopic(t));
+    b.setAttribute('aria-pressed', activeTopics.has(t) ? 'true' : 'false');
+    b.addEventListener('click', () => toggleTopic(t));
     topicsEl.appendChild(b);
   });
 }
 
-function setTopic(t) {
-  activeTopic = t;
+function toggleTopic(t) {
+  const next = new Set(activeTopics);
+  if (next.has(t)) next.delete(t);
+  else next.add(t);
+  setTopics(next);
+}
+
+function setTopics(next) {
+  activeTopics = next;
   renderTopics();
   render();
 }
