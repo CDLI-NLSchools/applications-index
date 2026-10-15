@@ -5,12 +5,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
-  update-build-and-deploy:
+  update-build-and-commit:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,16 +20,21 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const org = 'CDLI-NLSchools';
-            // Use octokit paginate to reliably get all repos
+            const org = 'cdli-nlschools';
+            // Repos that are infrastructure, not student-facing applications
+            const excluded = new Set(['applications-index', 'cdli-template-sim']);
             const repos = await github.paginate(github.rest.repos.listForOrg, { org, type: 'public', per_page: 100 });
-            const apps = repos.map(r => ({
-              name: r.name,
-              category: 'Repository',
-              status: r.archived ? 'archived' : 'active',
-              url: r.html_url,
-              tags: r.topics || []
-            }));
+            const apps = repos
+              .filter(r => !r.archived && !excluded.has(r.name))
+              .map(r => ({
+                name: r.name,
+                description: r.description || '',
+                category: (r.topics && r.topics[0]) || 'Interactive',
+                status: 'active',
+                url: `https://cdli-nlschools.github.io/${r.name}/`,
+                repo: r.html_url,
+                tags: r.topics || []
+              }));
             fs.mkdirSync('public/data', { recursive: true });
             fs.writeFileSync('public/data/applications.json', JSON.stringify(apps, null, 2));
             console.log(`Wrote public/data/applications.json with ${apps.length} entries`);
@@ -47,10 +50,14 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: ./docs
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v5
+      - name: Commit rebuilt site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily refresh: rebuild index $(date -u +%Y-%m-%d)"
+            git push
+          fi
