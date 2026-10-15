@@ -24,7 +24,10 @@ jobs:
             // Repos that are infrastructure, not student-facing applications
             const excluded = new Set(['applications-index', 'cdli-template-sim', 'course-template-demo', 'demo-repository']);
             const repos = await github.paginate(github.rest.repos.listForOrg, { org, type: 'public', per_page: 100 });
-            const live = repos.filter(r => !r.archived && !excluded.has(r.name));
+            // Belt and braces: the API call above already asks for public repos only,
+            // but explicitly drop anything private here so a private repo can never
+            // leak into the public index, even if the API call is changed later.
+            const live = repos.filter(r => !r.private && !r.archived && !excluded.has(r.name));
             const apps = [];
             for (const r of live) {
               // Top contributor = the application's creator in practice
