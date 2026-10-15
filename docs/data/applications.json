@@ -177,53 +177,61 @@
   },
   {
     "name": "3204ProjectileReferenceFrame",
-    "description": "",
-    "category": "Interactive",
+    "description": "Projectile Reference Frame Simulation",
+    "category": "physics3204",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/3204ProjectileReferenceFrame/",
     "repo": "https://github.com/CDLI-NLSchools/3204ProjectileReferenceFrame",
-    "tags": [],
+    "tags": [
+      "physics3204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T14:48:41Z",
-    "updated_at": "2026-10-15T14:49:46Z",
+    "updated_at": "2026-10-15T18:37:19Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/3204ProjectileReferenceFrame/main/index.html"
   },
   {
     "name": "B2201VirtualTransectLabSimulation",
-    "description": "",
-    "category": "Interactive",
+    "description": "Virtual Transect Lab Simulation",
+    "category": "bio2201",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/B2201VirtualTransectLabSimulation/",
     "repo": "https://github.com/CDLI-NLSchools/B2201VirtualTransectLabSimulation",
-    "tags": [],
+    "tags": [
+      "bio2201",
+      "ecosystems-populations"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T17:42:30Z",
-    "updated_at": "2026-10-15T17:43:46Z",
+    "updated_at": "2026-10-15T18:36:03Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/B2201VirtualTransectLabSimulation/main/index.html"
   },
   {
     "name": "B2201QuadratSamplingSimulation",
     "description": "",
-    "category": "Interactive",
+    "category": "bio2201",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/B2201QuadratSamplingSimulation/",
     "repo": "https://github.com/CDLI-NLSchools/B2201QuadratSamplingSimulation",
-    "tags": [],
+    "tags": [
+      "bio2201",
+      "ecosystems-populations"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T17:44:32Z",
-    "updated_at": "2026-10-15T17:46:02Z",
+    "updated_at": "2026-10-15T18:33:53Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/B2201QuadratSamplingSimulation/main/index.html"
   }
 ]
