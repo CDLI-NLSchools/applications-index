@@ -40,6 +40,12 @@ jobs:
               } catch (e) {
                 console.log(`Could not list contributors for ${r.name}: ${e.message}`);
               }
+              // Single-file download: only offered when index.html exists at the repo root
+              let download_url = null;
+              try {
+                await github.rest.repos.getContent({ owner: org, repo: r.name, path: 'index.html' });
+                download_url = `https://raw.githubusercontent.com/${org}/${r.name}/${r.default_branch}/index.html`;
+              } catch (e) { /* no standalone file to download */ }
               apps.push({
                 name: r.name,
                 description: r.description || '',
@@ -50,7 +56,8 @@ jobs:
                 tags: r.topics || [],
                 creator,
                 created_at: r.created_at,
-                updated_at: r.updated_at
+                updated_at: r.updated_at,
+                download_url
               });
             }
             fs.mkdirSync('public/data', { recursive: true });
