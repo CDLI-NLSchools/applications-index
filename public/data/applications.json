@@ -13,7 +13,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T12:29:43Z",
-    "updated_at": "2026-10-15T12:55:17Z"
+    "updated_at": "2026-10-15T12:55:17Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/RelativeMotionDemonstration/main/index.html"
   },
   {
     "name": "NoTime",
@@ -29,7 +30,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:33:30Z",
-    "updated_at": "2026-10-15T12:59:46Z"
+    "updated_at": "2026-10-15T12:59:46Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoTime/main/index.html"
   },
   {
     "name": "NoFinal",
@@ -45,7 +47,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:45:07Z",
-    "updated_at": "2026-10-15T13:29:44Z"
+    "updated_at": "2026-10-15T13:29:44Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoFinal/main/index.html"
   },
   {
     "name": "NoAcceleration",
@@ -61,7 +64,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:51:10Z",
-    "updated_at": "2026-10-15T13:29:21Z"
+    "updated_at": "2026-10-15T13:29:21Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoAcceleration/main/index.html"
   },
   {
     "name": "NoInitial",
@@ -77,7 +81,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:54:33Z",
-    "updated_at": "2026-10-15T14:21:03Z"
+    "updated_at": "2026-10-15T14:21:03Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoInitial/main/index.html"
   },
   {
     "name": "NoDisplacement",
@@ -93,7 +98,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:56:41Z",
-    "updated_at": "2026-10-15T14:24:47Z"
+    "updated_at": "2026-10-15T14:24:47Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoDisplacement/main/index.html"
   },
   {
     "name": "LearnersTestPrep",
@@ -111,7 +117,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-09-09T18:37:08Z",
-    "updated_at": "2026-10-14T16:15:43Z"
+    "updated_at": "2026-10-14T16:15:43Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/LearnersTestPrep/main/index.html"
   },
   {
     "name": "StickyMomentum",
@@ -127,7 +134,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-09-22T23:44:59Z",
-    "updated_at": "2026-10-15T12:57:46Z"
+    "updated_at": "2026-10-15T12:57:46Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/StickyMomentum/main/index.html"
   },
   {
     "name": "French-Version-Land-and-Sea",
@@ -143,7 +151,8 @@
       "url": "https://github.com/teacherKS628"
     },
     "created_at": "2026-10-14T01:11:38Z",
-    "updated_at": "2026-10-14T17:48:50Z"
+    "updated_at": "2026-10-14T17:48:50Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/French-Version-Land-and-Sea/main/index.html"
   },
   {
     "name": "FrenchWinds",
@@ -163,7 +172,8 @@
       "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-10-14T12:27:17Z",
-    "updated_at": "2026-10-14T16:21:51Z"
+    "updated_at": "2026-10-14T16:21:51Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/FrenchWinds/main/index.html"
   },
   {
     "name": "3204ProjectileReferenceFrame",
@@ -179,7 +189,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T14:48:41Z",
-    "updated_at": "2026-10-15T14:49:46Z"
+    "updated_at": "2026-10-15T14:49:46Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/3204ProjectileReferenceFrame/main/index.html"
   },
   {
     "name": "B2201VirtualTransectLabSimulation",
@@ -195,7 +206,8 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T17:42:30Z",
-    "updated_at": "2026-10-15T17:43:46Z"
+    "updated_at": "2026-10-15T17:43:46Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/B2201VirtualTransectLabSimulation/main/index.html"
   },
   {
     "name": "B2201QuadratSamplingSimulation",
@@ -211,6 +223,7 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T17:44:32Z",
-    "updated_at": "2026-10-15T17:46:02Z"
+    "updated_at": "2026-10-15T17:46:02Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/B2201QuadratSamplingSimulation/main/index.html"
   }
 ]
