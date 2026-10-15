@@ -1,1 +1,9 @@
-
+[
+  {
+    "name": "Sample App",
+    "category": "Tool",
+    "status": "active",
+    "url": "https://example.com",
+    "tags": ["sample","demo"]
+  }
+]
