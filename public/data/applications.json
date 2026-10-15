@@ -6,7 +6,14 @@
     "status": "active",
     "url": "https://cdli-nlschools.github.io/RelativeMotionDemonstration/",
     "repo": "https://github.com/CDLI-NLSchools/RelativeMotionDemonstration",
-    "tags": []
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-08-21T12:29:43Z",
+    "updated_at": "2026-10-15T12:55:17Z"
   },
   {
     "name": "NoTime",
@@ -15,7 +22,14 @@
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoTime/",
     "repo": "https://github.com/CDLI-NLSchools/NoTime",
-    "tags": []
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-08-21T13:33:30Z",
+    "updated_at": "2026-10-15T12:59:46Z"
   },
   {
     "name": "NoFinal",
@@ -24,7 +38,14 @@
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoFinal/",
     "repo": "https://github.com/CDLI-NLSchools/NoFinal",
-    "tags": []
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-08-21T13:45:07Z",
+    "updated_at": "2026-10-15T13:29:44Z"
   },
   {
     "name": "NoAcceleration",
@@ -33,7 +54,14 @@
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoAcceleration/",
     "repo": "https://github.com/CDLI-NLSchools/NoAcceleration",
-    "tags": []
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-08-21T13:51:10Z",
+    "updated_at": "2026-10-15T13:29:21Z"
   },
   {
     "name": "NoInitial",
@@ -42,7 +70,14 @@
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoInitial/",
     "repo": "https://github.com/CDLI-NLSchools/NoInitial",
-    "tags": []
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-08-21T13:54:33Z",
+    "updated_at": "2026-10-15T14:21:03Z"
   },
   {
     "name": "NoDisplacement",
@@ -51,7 +86,14 @@
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoDisplacement/",
     "repo": "https://github.com/CDLI-NLSchools/NoDisplacement",
-    "tags": []
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-08-21T13:56:41Z",
+    "updated_at": "2026-10-15T14:24:47Z"
   },
   {
     "name": "LearnersTestPrep",
@@ -62,7 +104,14 @@
     "repo": "https://github.com/CDLI-NLSchools/LearnersTestPrep",
     "tags": [
       "drivers-license"
-    ]
+    ],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-09-09T18:37:08Z",
+    "updated_at": "2026-10-14T16:15:43Z"
   },
   {
     "name": "StickyMomentum",
@@ -71,7 +120,30 @@
     "status": "active",
     "url": "https://cdli-nlschools.github.io/StickyMomentum/",
     "repo": "https://github.com/CDLI-NLSchools/StickyMomentum",
-    "tags": []
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-09-22T23:44:59Z",
+    "updated_at": "2026-10-15T12:57:46Z"
+  },
+  {
+    "name": "course-template-demo",
+    "description": "Course template repo for CDLI-NLSchools \u2014 instructor-facing template with assignments, lessons, submission guidelines, and CI examples.",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/course-template-demo/",
+    "repo": "https://github.com/CDLI-NLSchools/course-template-demo",
+    "tags": [],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-13T19:03:43Z",
+    "updated_at": "2026-10-13T19:03:49Z"
   },
   {
     "name": "French-Version-Land-and-Sea",
@@ -80,7 +152,14 @@
     "status": "active",
     "url": "https://cdli-nlschools.github.io/French-Version-Land-and-Sea/",
     "repo": "https://github.com/CDLI-NLSchools/French-Version-Land-and-Sea",
-    "tags": []
+    "tags": [],
+    "creator": {
+      "login": "teacherKS628",
+      "avatar_url": "https://avatars.githubusercontent.com/u/332267678?v=4",
+      "url": "https://github.com/teacherKS628"
+    },
+    "created_at": "2026-10-14T01:11:38Z",
+    "updated_at": "2026-10-14T17:48:50Z"
   },
   {
     "name": "FrenchWinds",
@@ -93,7 +172,30 @@
       "science1206",
       "science2200",
       "weather"
-    ]
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-14T12:27:17Z",
+    "updated_at": "2026-10-14T16:21:51Z"
+  },
+  {
+    "name": "demo-repository",
+    "description": "A code repository designed to show the best GitHub has to offer.",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/demo-repository/",
+    "repo": "https://github.com/CDLI-NLSchools/demo-repository",
+    "tags": [],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-14T18:35:27Z",
+    "updated_at": "2026-10-14T18:35:34Z"
   },
   {
     "name": "3204ProjectileReferenceFrame",
@@ -102,6 +204,45 @@
     "status": "active",
     "url": "https://cdli-nlschools.github.io/3204ProjectileReferenceFrame/",
     "repo": "https://github.com/CDLI-NLSchools/3204ProjectileReferenceFrame",
-    "tags": []
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-10-15T14:48:41Z",
+    "updated_at": "2026-10-15T14:49:46Z"
+  },
+  {
+    "name": "B2201VirtualTransectLabSimulation",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/B2201VirtualTransectLabSimulation/",
+    "repo": "https://github.com/CDLI-NLSchools/B2201VirtualTransectLabSimulation",
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-10-15T17:42:30Z",
+    "updated_at": "2026-10-15T17:43:46Z"
+  },
+  {
+    "name": "B2201QuadratSamplingSimulation",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/B2201QuadratSamplingSimulation/",
+    "repo": "https://github.com/CDLI-NLSchools/B2201QuadratSamplingSimulation",
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-10-15T17:44:32Z",
+    "updated_at": "2026-10-15T17:46:02Z"
   }
 ]
