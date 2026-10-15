@@ -1,1 +1,15 @@
-
+{
+  "name": "applications-index",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --outDir docs",
+    "preview": "vite preview --port 5000",
+    "update-index": "node scripts/update-index.js"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
