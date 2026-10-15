@@ -24,17 +24,32 @@ jobs:
             // Repos that are infrastructure, not student-facing applications
             const excluded = new Set(['applications-index', 'cdli-template-sim']);
             const repos = await github.paginate(github.rest.repos.listForOrg, { org, type: 'public', per_page: 100 });
-            const apps = repos
-              .filter(r => !r.archived && !excluded.has(r.name))
-              .map(r => ({
+            const live = repos.filter(r => !r.archived && !excluded.has(r.name));
+            const apps = [];
+            for (const r of live) {
+              // Top contributor = the application's creator in practice
+              let creator = null;
+              try {
+                const { data } = await github.rest.repos.listContributors({ owner: org, repo: r.name, per_page: 1 });
+                if (data && data.length > 0) {
+                  creator = { login: data[0].login, avatar_url: data[0].avatar_url, url: data[0].html_url };
+                }
+              } catch (e) {
+                console.log(`Could not list contributors for ${r.name}: ${e.message}`);
+              }
+              apps.push({
                 name: r.name,
                 description: r.description || '',
                 category: (r.topics && r.topics[0]) || 'Interactive',
                 status: 'active',
                 url: `https://cdli-nlschools.github.io/${r.name}/`,
                 repo: r.html_url,
-                tags: r.topics || []
-              }));
+                tags: r.topics || [],
+                creator,
+                created_at: r.created_at,
+                updated_at: r.updated_at
+              });
+            }
             fs.mkdirSync('public/data', { recursive: true });
             fs.writeFileSync('public/data/applications.json', JSON.stringify(apps, null, 2));
             console.log(`Wrote public/data/applications.json with ${apps.length} entries`);
