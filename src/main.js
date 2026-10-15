@@ -22,6 +22,9 @@ function sorted(list) {
     name: (a, b) => (a.name || '').localeCompare(b.name || ''),
     newest: (a, b) => (b.created_at || '').localeCompare(a.created_at || ''),
     updated: (a, b) => (b.updated_at || '').localeCompare(a.updated_at || ''),
+    teacher: (a, b) =>
+      ((a.creator && a.creator.login) || 'zzz').localeCompare((b.creator && b.creator.login) || 'zzz') ||
+      (a.name || '').localeCompare(b.name || ''),
   }[sortMode];
   if (by) return list.sort(by);
   // topic: group by first tag, groups alphabetical, names within group
@@ -116,16 +119,20 @@ function render() {
     return;
   }
 
-  if (sortMode === 'topic') {
+  if (sortMode === 'topic' || sortMode === 'teacher') {
+    const groupOf = sortMode === 'topic'
+      ? (a) => (a.tags && a.tags[0]) || 'Untagged'
+      : (a) => (a.creator && a.creator.login) || 'Unknown';
+    // Teacher groups are already ordered by the sort; topic groups too.
     let currentGroup = null;
     let ul = null;
     list.forEach(a => {
-      const g = (a.tags && a.tags[0]) || 'Untagged';
+      const g = groupOf(a);
       if (g !== currentGroup) {
         currentGroup = g;
         const h = document.createElement('h2');
         h.className = 'topic-heading';
-        h.textContent = g;
+        h.textContent = sortMode === 'teacher' ? 'by ' + g : g;
         listEl.appendChild(h);
         ul = document.createElement('ul');
         ul.className = 'cards';
@@ -176,8 +183,10 @@ function setTopic(t) {
 async function init() {
   sortEl.addEventListener('change', () => { sortMode = sortEl.value; render(); });
   try {
-    // Relative path so the request resolves under /applications-index/
-    const res = await fetch('data/applications.json');
+    // Relative path so the request resolves under /applications-index/.
+    // no-store so a fresh page load always picks up the daily refresh,
+    // even if the browser cached yesterday's JSON.
+    const res = await fetch('data/applications.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     apps = await res.json();
     renderTopics();
