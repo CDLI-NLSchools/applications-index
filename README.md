@@ -30,4 +30,6 @@ Then push to GitHub. Configure Pages to serve from branch `main` → folder `doc
 
 ## Automation
 
-A GitHub Actions workflow (.github/workflows/daily-refresh.yml) is included to run the updater and rebuild daily.
+A GitHub Actions workflow (.github/workflows/daily-refresh.yml) runs daily at 06:00 UTC (and on demand via workflow_dispatch). It scans the CDLI-NLSchools org for public repos, writes `public/data/applications.json` (linking each app to its GitHub Pages URL, skipping infrastructure repos like this one and the sim template), rebuilds the site into `docs/`, and commits the result to `main`. GitHub Pages serves the site from branch `main` → folder `docs/`, so the index stays current automatically.
+
+Note: `npm run update-index` / `scripts/update-index.js` is a separate local-dev helper that fetches index data from a `DATA_SOURCE_URL`. The automated workflow does not use it; it generates the index directly from the GitHub API.
