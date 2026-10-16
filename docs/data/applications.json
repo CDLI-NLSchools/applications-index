@@ -155,6 +155,23 @@
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/StickyMomentum/main/index.html"
   },
   {
+    "name": "P3204GradeCalculator",
+    "description": "",
+    "category": "Interactive",
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/P3204GradeCalculator/",
+    "repo": "https://github.com/CDLI-NLSchools/P3204GradeCalculator",
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-10-09T14:15:07Z",
+    "updated_at": "2026-10-16T22:34:32Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/P3204GradeCalculator/main/index.html"
+  },
+  {
     "name": "French-Version-Land-and-Sea",
     "description": "",
     "category": "Interactive",
