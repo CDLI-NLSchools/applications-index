@@ -1,0 +1,11 @@
+name = "cdli-index-webhook"
+main = "worker.js"
+compatibility_date = "2026-10-16"
+
+[vars]
+WORKFLOW_FILE = "daily-refresh.yml"
+
+# Secrets (set via `wrangler secret put` or the Cloudflare dashboard):
+#   WEBHOOK_SECRET  - must match the secret on the GitHub org webhook
+#   DISPATCH_TOKEN  - fine-grained PAT, Actions: read/write, scoped to
+#                     cdli-nlschools/applications-index
