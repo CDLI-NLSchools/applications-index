@@ -216,7 +216,7 @@
   },
   {
     "name": "B2201QuadratSamplingSimulation",
-    "description": "",
+    "description": "A Quadrat Sampling simulation",
     "category": "bio2201",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/B2201QuadratSamplingSimulation/",
@@ -231,7 +231,7 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T17:44:32Z",
-    "updated_at": "2026-10-15T18:33:53Z",
+    "updated_at": "2026-10-16T14:43:17Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/B2201QuadratSamplingSimulation/main/index.html"
   }
 ]
