@@ -1,8 +1,14 @@
 [
   {
     "name": "ObliqueForces",
-    "description": "",
-    "category": "dynamics",
+    "description": "Interactive Physics 2204 simulation exploring dynamics.",
+    "category": "Physics 2204",
+    "courses": [
+      {
+        "tag": "physics-2204",
+        "name": "Physics 2204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/ObliqueForces/",
     "repo": "https://github.com/CDLI-NLSchools/ObliqueForces",
@@ -16,13 +22,19 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-06T17:48:17Z",
-    "updated_at": "2026-10-17T11:48:47Z",
+    "updated_at": "2026-10-17T12:30:37Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ObliqueForces/main/index.html"
   },
   {
     "name": "RelativeMotionDemonstration",
     "description": "",
-    "category": "kinematics",
+    "category": "Physics 2204",
+    "courses": [
+      {
+        "tag": "physics-2204",
+        "name": "Physics 2204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/RelativeMotionDemonstration/",
     "repo": "https://github.com/CDLI-NLSchools/RelativeMotionDemonstration",
@@ -42,7 +54,13 @@
   {
     "name": "NoTime",
     "description": "",
-    "category": "kinematics",
+    "category": "Physics 2204",
+    "courses": [
+      {
+        "tag": "physics-2204",
+        "name": "Physics 2204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoTime/",
     "repo": "https://github.com/CDLI-NLSchools/NoTime",
@@ -62,7 +80,13 @@
   {
     "name": "NoFinal",
     "description": "",
-    "category": "kinematics",
+    "category": "Physics 2204",
+    "courses": [
+      {
+        "tag": "physics-2204",
+        "name": "Physics 2204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoFinal/",
     "repo": "https://github.com/CDLI-NLSchools/NoFinal",
@@ -82,7 +106,13 @@
   {
     "name": "NoAcceleration",
     "description": "",
-    "category": "kinematics",
+    "category": "Physics 2204",
+    "courses": [
+      {
+        "tag": "physics-2204",
+        "name": "Physics 2204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoAcceleration/",
     "repo": "https://github.com/CDLI-NLSchools/NoAcceleration",
@@ -102,7 +132,13 @@
   {
     "name": "NoInitial",
     "description": "",
-    "category": "kinematics",
+    "category": "Physics 2204",
+    "courses": [
+      {
+        "tag": "physics-2204",
+        "name": "Physics 2204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoInitial/",
     "repo": "https://github.com/CDLI-NLSchools/NoInitial",
@@ -122,7 +158,13 @@
   {
     "name": "NoDisplacement",
     "description": "",
-    "category": "kinematics",
+    "category": "Physics 2204",
+    "courses": [
+      {
+        "tag": "physics-2204",
+        "name": "Physics 2204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoDisplacement/",
     "repo": "https://github.com/CDLI-NLSchools/NoDisplacement",
@@ -142,7 +184,8 @@
   {
     "name": "LearnersTestPrep",
     "description": "",
-    "category": "drivers-license",
+    "category": "Interactive",
+    "courses": [],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/LearnersTestPrep/",
     "repo": "https://github.com/CDLI-NLSchools/LearnersTestPrep",
@@ -162,7 +205,13 @@
   {
     "name": "StickyMomentum",
     "description": "",
-    "category": "motion",
+    "category": "Physics 3204",
+    "courses": [
+      {
+        "tag": "physics-3204",
+        "name": "Physics 3204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/StickyMomentum/",
     "repo": "https://github.com/CDLI-NLSchools/StickyMomentum",
@@ -182,7 +231,13 @@
   {
     "name": "P3204GradeCalculator",
     "description": "",
-    "category": "physics-3204",
+    "category": "Physics 3204",
+    "courses": [
+      {
+        "tag": "physics-3204",
+        "name": "Physics 3204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/P3204GradeCalculator/",
     "repo": "https://github.com/CDLI-NLSchools/P3204GradeCalculator",
@@ -201,7 +256,13 @@
   {
     "name": "P2204GradeCalculator",
     "description": "",
-    "category": "physics-2204",
+    "category": "Physics 2204",
+    "courses": [
+      {
+        "tag": "physics-2204",
+        "name": "Physics 2204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/P2204GradeCalculator/",
     "repo": "https://github.com/CDLI-NLSchools/P2204GradeCalculator",
@@ -221,6 +282,7 @@
     "name": "French-Version-Land-and-Sea",
     "description": "",
     "category": "Interactive",
+    "courses": [],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/French-Version-Land-and-Sea/",
     "repo": "https://github.com/CDLI-NLSchools/French-Version-Land-and-Sea",
@@ -237,7 +299,17 @@
   {
     "name": "FrenchWinds",
     "description": "",
-    "category": "science-1206",
+    "category": "Science 1206",
+    "courses": [
+      {
+        "tag": "science-1206",
+        "name": "Science 1206"
+      },
+      {
+        "tag": "science-2200",
+        "name": "Science 2200"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/FrenchWinds/",
     "repo": "https://github.com/CDLI-NLSchools/FrenchWinds",
@@ -258,7 +330,13 @@
   {
     "name": "3204ProjectileReferenceFrame",
     "description": "Projectile Reference Frame Simulation",
-    "category": "motion",
+    "category": "Physics 3204",
+    "courses": [
+      {
+        "tag": "physics-3204",
+        "name": "Physics 3204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/3204ProjectileReferenceFrame/",
     "repo": "https://github.com/CDLI-NLSchools/3204ProjectileReferenceFrame",
@@ -278,7 +356,13 @@
   {
     "name": "B2201VirtualTransectLabSimulation",
     "description": "Virtual Transect Lab Simulation",
-    "category": "bio-2201",
+    "category": "Biology 2201",
+    "courses": [
+      {
+        "tag": "bio-2201",
+        "name": "Biology 2201"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/B2201VirtualTransectLabSimulation/",
     "repo": "https://github.com/CDLI-NLSchools/B2201VirtualTransectLabSimulation",
@@ -298,7 +382,13 @@
   {
     "name": "B2201QuadratSamplingSimulation",
     "description": "A Quadrat Sampling simulation",
-    "category": "bio-2201",
+    "category": "Biology 2201",
+    "courses": [
+      {
+        "tag": "bio-2201",
+        "name": "Biology 2201"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/B2201QuadratSamplingSimulation/",
     "repo": "https://github.com/CDLI-NLSchools/B2201QuadratSamplingSimulation",
