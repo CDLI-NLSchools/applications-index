@@ -2,120 +2,141 @@
   {
     "name": "ObliqueForces",
     "description": "",
-    "category": "Interactive",
+    "category": "dynamics",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/ObliqueForces/",
     "repo": "https://github.com/CDLI-NLSchools/ObliqueForces",
-    "tags": [],
+    "tags": [
+      "dynamics",
+      "physics-2204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-06T17:48:17Z",
-    "updated_at": "2026-10-16T22:28:12Z",
+    "updated_at": "2026-10-17T11:48:47Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ObliqueForces/main/index.html"
   },
   {
     "name": "RelativeMotionDemonstration",
     "description": "",
-    "category": "Interactive",
+    "category": "kinematics",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/RelativeMotionDemonstration/",
     "repo": "https://github.com/CDLI-NLSchools/RelativeMotionDemonstration",
-    "tags": [],
+    "tags": [
+      "kinematics",
+      "physics-2204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T12:29:43Z",
-    "updated_at": "2026-10-15T12:55:17Z",
+    "updated_at": "2026-10-17T11:48:52Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/RelativeMotionDemonstration/main/index.html"
   },
   {
     "name": "NoTime",
     "description": "",
-    "category": "Interactive",
+    "category": "kinematics",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoTime/",
     "repo": "https://github.com/CDLI-NLSchools/NoTime",
-    "tags": [],
+    "tags": [
+      "kinematics",
+      "physics-2204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:33:30Z",
-    "updated_at": "2026-10-15T12:59:46Z",
+    "updated_at": "2026-10-17T11:48:45Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoTime/main/index.html"
   },
   {
     "name": "NoFinal",
     "description": "",
-    "category": "Interactive",
+    "category": "kinematics",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoFinal/",
     "repo": "https://github.com/CDLI-NLSchools/NoFinal",
-    "tags": [],
+    "tags": [
+      "kinematics",
+      "physics-2204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:45:07Z",
-    "updated_at": "2026-10-15T13:29:44Z",
+    "updated_at": "2026-10-17T11:48:42Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoFinal/main/index.html"
   },
   {
     "name": "NoAcceleration",
     "description": "",
-    "category": "Interactive",
+    "category": "kinematics",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoAcceleration/",
     "repo": "https://github.com/CDLI-NLSchools/NoAcceleration",
-    "tags": [],
+    "tags": [
+      "kinematics",
+      "physics-2204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:51:10Z",
-    "updated_at": "2026-10-15T13:29:21Z",
+    "updated_at": "2026-10-17T11:48:39Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoAcceleration/main/index.html"
   },
   {
     "name": "NoInitial",
     "description": "",
-    "category": "Interactive",
+    "category": "kinematics",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoInitial/",
     "repo": "https://github.com/CDLI-NLSchools/NoInitial",
-    "tags": [],
+    "tags": [
+      "kinematics",
+      "physics-2204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:54:33Z",
-    "updated_at": "2026-10-15T14:21:03Z",
+    "updated_at": "2026-10-17T11:48:44Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoInitial/main/index.html"
   },
   {
     "name": "NoDisplacement",
     "description": "",
-    "category": "Interactive",
+    "category": "kinematics",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NoDisplacement/",
     "repo": "https://github.com/CDLI-NLSchools/NoDisplacement",
-    "tags": [],
+    "tags": [
+      "kinematics",
+      "physics-2204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:56:41Z",
-    "updated_at": "2026-10-15T14:24:47Z",
+    "updated_at": "2026-10-17T11:48:41Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoDisplacement/main/index.html"
   },
   {
@@ -126,7 +147,8 @@
     "url": "https://cdli-nlschools.github.io/LearnersTestPrep/",
     "repo": "https://github.com/CDLI-NLSchools/LearnersTestPrep",
     "tags": [
-      "drivers-license"
+      "drivers-license",
+      "non-curriculum"
     ],
     "creator": {
       "login": "teacherbrothen",
@@ -134,58 +156,65 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-09-09T18:37:08Z",
-    "updated_at": "2026-10-14T16:15:43Z",
+    "updated_at": "2026-10-17T11:48:37Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/LearnersTestPrep/main/index.html"
   },
   {
     "name": "StickyMomentum",
     "description": "",
-    "category": "Interactive",
+    "category": "motion",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/StickyMomentum/",
     "repo": "https://github.com/CDLI-NLSchools/StickyMomentum",
-    "tags": [],
+    "tags": [
+      "motion",
+      "physics-3204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-09-22T23:44:59Z",
-    "updated_at": "2026-10-15T12:57:46Z",
+    "updated_at": "2026-10-17T11:48:26Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/StickyMomentum/main/index.html"
   },
   {
     "name": "P3204GradeCalculator",
     "description": "",
-    "category": "Interactive",
+    "category": "physics-3204",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/P3204GradeCalculator/",
     "repo": "https://github.com/CDLI-NLSchools/P3204GradeCalculator",
-    "tags": [],
+    "tags": [
+      "physics-3204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-09T14:15:07Z",
-    "updated_at": "2026-10-16T22:41:06Z",
+    "updated_at": "2026-10-17T11:48:50Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/P3204GradeCalculator/main/index.html"
   },
   {
     "name": "P2204GradeCalculator",
     "description": "",
-    "category": "Interactive",
+    "category": "physics-2204",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/P2204GradeCalculator/",
     "repo": "https://github.com/CDLI-NLSchools/P2204GradeCalculator",
-    "tags": [],
+    "tags": [
+      "physics-2204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-09T14:21:57Z",
-    "updated_at": "2026-10-16T22:43:32Z",
+    "updated_at": "2026-10-17T11:48:48Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/P2204GradeCalculator/main/index.html"
   },
   {
@@ -208,13 +237,13 @@
   {
     "name": "FrenchWinds",
     "description": "",
-    "category": "science1206",
+    "category": "science-1206",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/FrenchWinds/",
     "repo": "https://github.com/CDLI-NLSchools/FrenchWinds",
     "tags": [
-      "science1206",
-      "science2200",
+      "science-1206",
+      "science-2200",
       "weather"
     ],
     "creator": {
@@ -223,18 +252,19 @@
       "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-10-14T12:27:17Z",
-    "updated_at": "2026-10-14T16:21:51Z",
+    "updated_at": "2026-10-17T11:48:36Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/FrenchWinds/main/index.html"
   },
   {
     "name": "3204ProjectileReferenceFrame",
     "description": "Projectile Reference Frame Simulation",
-    "category": "physics3204",
+    "category": "motion",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/3204ProjectileReferenceFrame/",
     "repo": "https://github.com/CDLI-NLSchools/3204ProjectileReferenceFrame",
     "tags": [
-      "physics3204"
+      "motion",
+      "physics-3204"
     ],
     "creator": {
       "login": "teacherbrothen",
@@ -242,18 +272,18 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T14:48:41Z",
-    "updated_at": "2026-10-15T18:37:19Z",
+    "updated_at": "2026-10-17T11:48:31Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/3204ProjectileReferenceFrame/main/index.html"
   },
   {
     "name": "B2201VirtualTransectLabSimulation",
     "description": "Virtual Transect Lab Simulation",
-    "category": "bio2201",
+    "category": "bio-2201",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/B2201VirtualTransectLabSimulation/",
     "repo": "https://github.com/CDLI-NLSchools/B2201VirtualTransectLabSimulation",
     "tags": [
-      "bio2201",
+      "bio-2201",
       "ecosystems-populations"
     ],
     "creator": {
@@ -262,18 +292,18 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T17:42:30Z",
-    "updated_at": "2026-10-15T18:36:03Z",
+    "updated_at": "2026-10-17T11:48:34Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/B2201VirtualTransectLabSimulation/main/index.html"
   },
   {
     "name": "B2201QuadratSamplingSimulation",
     "description": "A Quadrat Sampling simulation",
-    "category": "bio2201",
+    "category": "bio-2201",
     "status": "active",
     "url": "https://cdli-nlschools.github.io/B2201QuadratSamplingSimulation/",
     "repo": "https://github.com/CDLI-NLSchools/B2201QuadratSamplingSimulation",
     "tags": [
-      "bio2201",
+      "bio-2201",
       "ecosystems-populations"
     ],
     "creator": {
@@ -282,7 +312,7 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T17:44:32Z",
-    "updated_at": "2026-10-16T14:43:17Z",
+    "updated_at": "2026-10-17T11:48:33Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/B2201QuadratSamplingSimulation/main/index.html"
   }
 ]
