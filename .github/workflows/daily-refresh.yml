@@ -7,6 +7,11 @@ on:
 permissions:
   contents: write
 
+# Serialize runs: overlapping refreshes queue instead of racing each other to push.
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
 jobs:
   update-build-and-commit:
     runs-on: ubuntu-latest
@@ -84,5 +89,6 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Daily refresh: rebuild index $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
             git push
           fi
