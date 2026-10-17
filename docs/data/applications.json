@@ -230,7 +230,7 @@
   },
   {
     "name": "P3204GradeCalculator",
-    "description": "",
+    "description": "Interactive Physics 3204 simulation.",
     "category": "Physics 3204",
     "courses": [
       {
@@ -250,12 +250,12 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-09T14:15:07Z",
-    "updated_at": "2026-10-17T11:48:50Z",
+    "updated_at": "2026-10-17T12:31:24Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/P3204GradeCalculator/main/index.html"
   },
   {
     "name": "P2204GradeCalculator",
-    "description": "",
+    "description": "Interactive Physics 2204 simulation.",
     "category": "Physics 2204",
     "courses": [
       {
@@ -275,12 +275,12 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-09T14:21:57Z",
-    "updated_at": "2026-10-17T11:48:48Z",
+    "updated_at": "2026-10-17T12:31:30Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/P2204GradeCalculator/main/index.html"
   },
   {
     "name": "French-Version-Land-and-Sea",
-    "description": "",
+    "description": "Interactive learning application.",
     "category": "Interactive",
     "courses": [],
     "status": "active",
@@ -293,12 +293,12 @@
       "url": "https://github.com/teacherKS628"
     },
     "created_at": "2026-10-14T01:11:38Z",
-    "updated_at": "2026-10-14T17:48:50Z",
+    "updated_at": "2026-10-17T12:31:39Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/French-Version-Land-and-Sea/main/index.html"
   },
   {
     "name": "FrenchWinds",
-    "description": "",
+    "description": "Interactive Science 1206 & Science 2200 simulation exploring weather.",
     "category": "Science 1206",
     "courses": [
       {
@@ -324,7 +324,7 @@
       "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-10-14T12:27:17Z",
-    "updated_at": "2026-10-17T11:48:36Z",
+    "updated_at": "2026-10-17T12:31:39Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/FrenchWinds/main/index.html"
   },
   {
@@ -350,7 +350,7 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-15T14:48:41Z",
-    "updated_at": "2026-10-17T11:48:31Z",
+    "updated_at": "2026-10-17T12:31:45Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/3204ProjectileReferenceFrame/main/index.html"
   },
   {
