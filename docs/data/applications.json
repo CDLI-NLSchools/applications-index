@@ -131,7 +131,7 @@
   },
   {
     "name": "NoInitial",
-    "description": "",
+    "description": "Interactive Physics 2204 simulation exploring kinematics.",
     "category": "Physics 2204",
     "courses": [
       {
@@ -152,12 +152,12 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:54:33Z",
-    "updated_at": "2026-10-17T11:48:44Z",
+    "updated_at": "2026-10-17T12:31:02Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoInitial/main/index.html"
   },
   {
     "name": "NoDisplacement",
-    "description": "",
+    "description": "Interactive Physics 2204 simulation exploring kinematics.",
     "category": "Physics 2204",
     "courses": [
       {
@@ -178,12 +178,12 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-21T13:56:41Z",
-    "updated_at": "2026-10-17T11:48:41Z",
+    "updated_at": "2026-10-17T12:31:08Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NoDisplacement/main/index.html"
   },
   {
     "name": "LearnersTestPrep",
-    "description": "",
+    "description": "Interactive drivers license app (outside the curriculum).",
     "category": "Interactive",
     "courses": [],
     "status": "active",
@@ -199,12 +199,12 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-09-09T18:37:08Z",
-    "updated_at": "2026-10-17T11:48:37Z",
+    "updated_at": "2026-10-17T12:31:13Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/LearnersTestPrep/main/index.html"
   },
   {
     "name": "StickyMomentum",
-    "description": "",
+    "description": "Interactive Physics 3204 simulation exploring motion.",
     "category": "Physics 3204",
     "courses": [
       {
@@ -225,7 +225,7 @@
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-09-22T23:44:59Z",
-    "updated_at": "2026-10-17T11:48:26Z",
+    "updated_at": "2026-10-17T12:31:18Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/StickyMomentum/main/index.html"
   },
   {
