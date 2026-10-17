@@ -131,6 +131,10 @@ function filtered() {
   return apps.filter(a => (a.tags || []).some(t => activeTopics.has(t)));
 }
 
+function courseOf(a) {
+  return (a.courses && a.courses[0] && a.courses[0].name) || 'Untagged';
+}
+
 function sorted(list) {
   const by = {
     name: (a, b) => (a.name || '').localeCompare(b.name || ''),
@@ -139,6 +143,12 @@ function sorted(list) {
     teacher: (a, b) =>
       ((a.creator && a.creator.login) || 'zzz').localeCompare((b.creator && b.creator.login) || 'zzz') ||
       (a.name || '').localeCompare(b.name || ''),
+    course: (a, b) => {
+      const ca = courseOf(a), cb = courseOf(b);
+      if (ca === 'Untagged' && cb !== 'Untagged') return 1;
+      if (cb === 'Untagged' && ca !== 'Untagged') return -1;
+      return ca.localeCompare(cb) || (a.name || '').localeCompare(b.name || '');
+    },
   }[sortMode];
   if (by) return list.sort(by);
   // topic: group by first tag, groups alphabetical, names within group
@@ -241,10 +251,12 @@ function render() {
     return;
   }
 
-  if (sortMode === 'topic' || sortMode === 'teacher') {
+  if (sortMode === 'topic' || sortMode === 'teacher' || sortMode === 'course') {
     const groupOf = sortMode === 'topic'
       ? (a) => (a.tags && a.tags[0]) || 'Untagged'
-      : (a) => (a.creator && a.creator.login) || 'Unknown';
+      : sortMode === 'teacher'
+        ? (a) => (a.creator && a.creator.login) || 'Unknown'
+        : courseOf;
     // Teacher groups are already ordered by the sort; topic groups too.
     let currentGroup = null;
     let ul = null;
