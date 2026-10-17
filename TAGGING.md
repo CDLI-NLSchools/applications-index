@@ -28,6 +28,9 @@ Example: a projectile-motion sim for Physics 2204 →
 
 ## L1 course catalog
 
+One row per course. The workflow parses this table to identify course tags,
+so keep the `| Course name | `tag` |` shape and one tag per row.
+
 ### Mathematics
 
 | Course | L1 tag |
@@ -74,10 +77,18 @@ Example: a projectile-motion sim for Physics 2204 →
 
 | Course | L1 tag |
 |---|---|
-| English Language Arts 4–9 | `ela-4` … `ela-9` |
-| English 1201 / 1202 | `ela-1201`, `ela-1202` |
-| English 2201 / 2202 | `ela-2201`, `ela-2202` |
-| English 3201 / 3202 | `ela-3201`, `ela-3202` |
+| English Language Arts 4 | `ela-4` |
+| English Language Arts 5 | `ela-5` |
+| English Language Arts 6 | `ela-6` |
+| English Language Arts 7 | `ela-7` |
+| English Language Arts 8 | `ela-8` |
+| English Language Arts 9 | `ela-9` |
+| English 1201 | `ela-1201` |
+| English 1202 | `ela-1202` |
+| English 2201 | `ela-2201` |
+| English 2202 | `ela-2202` |
+| English 3201 | `ela-3201` |
+| English 3202 | `ela-3202` |
 | Literacy 1204 | `literacy-1204` |
 | Drama 2206 | `drama-2206` |
 | Writing 2203 | `writing-2203` |
@@ -88,37 +99,114 @@ Example: a projectile-motion sim for Physics 2204 →
 
 | Course | L1 tag |
 |---|---|
-| Core French 4–9 | `french-4` … `french-9` |
+| Core French 4 | `french-4` |
+| Core French 5 | `french-5` |
+| Core French 6 | `french-6` |
+| Core French 7 | `french-7` |
+| Core French 8 | `french-8` |
+| Core French 9 | `french-9` |
 | Intensive Core French | `french-intensive` |
-| Core French 1200 / 2200 / 3200 | `french-1200`, `french-2200`, `french-3200` |
+| Core French 1200 | `french-1200` |
+| Core French 2200 | `french-2200` |
+| Core French 3200 | `french-3200` |
 
-### Français (French Immersion / FLP)
+### Français (French Immersion)
+
+Tags use the French course names from eNLightenED, so FI courses sort as
+their own courses, distinct from Core French.
 
 | Course | L1 tag |
 |---|---|
-| Français 4ᵉ–9ᵉ (FI) | `francais-4` … `francais-9` |
-| Français 1202 / 2202 / 3202 (FI) | `francais-1202`, `francais-2202`, `francais-3202` |
-| Français 4ᵉ–9ᵉ (FLP) | `francais-flp-4` … `francais-flp-9` |
+| Français 4e (FI) | `francais-4` |
+| Français 5e (FI) | `francais-5` |
+| Français 6e (FI) | `francais-6` |
+| Français 7e (FI) | `francais-7` |
+| Français 8e (FI) | `francais-8` |
+| Français 9e (FI) | `francais-9` |
+| Français 1202 (FI) | `francais-1202` |
+| Français 2202 (FI) | `francais-2202` |
+| Français 3202 (FI) | `francais-3202` |
+
+### Français (FLP)
+
+| Course | L1 tag |
+|---|---|
+| Français 4e (FLP) | `francais-flp-4` |
+| Français 5e (FLP) | `francais-flp-5` |
+| Français 6e (FLP) | `francais-flp-6` |
+| Français 7e (FLP) | `francais-flp-7` |
+| Français 8e (FLP) | `francais-flp-8` |
+| Français 9e (FLP) | `francais-flp-9` |
 
 ### Social Studies
 
 | Course | L1 tag |
 |---|---|
-| Social Studies 4–9 | `social-studies-4` … `social-studies-9` |
-| Social Studies 1201 / 1202 | `social-studies-1201`, `social-studies-1202` |
-| Social Studies 2201 / 2202 | `social-studies-2201`, `social-studies-2202` |
-| Social Studies 3201 / 3202 | `social-studies-3201`, `social-studies-3202` |
+| Social Studies 4 | `social-studies-4` |
+| Social Studies 5 | `social-studies-5` |
+| Social Studies 6 | `social-studies-6` |
+| Social Studies 7 | `social-studies-7` |
+| Social Studies 8 | `social-studies-8` |
+| Social Studies 9 | `social-studies-9` |
+| Social Studies 1201 | `social-studies-1201` |
+| Social Studies 1202 | `social-studies-1202` |
+| Social Studies 2201 | `social-studies-2201` |
+| Social Studies 2202 | `social-studies-2202` |
+| Social Studies 3201 | `social-studies-3201` |
+| Social Studies 3202 | `social-studies-3202` |
 | NL Studies 2205 | `nl-studies-2205` |
 
 ### Other subjects — course-level tags only
 
-| Subject | Courses → L1 tags |
+| Course | L1 tag |
 |---|---|
-| Health | `health-4` … `health-9` |
-| Physical Education | `phys-ed-4` … `phys-ed-9`, `phys-ed-2100`, `phys-ed-2101`, `phys-ed-3100`, `phys-ed-3101` |
-| Religious Education | `rel-ed-4` … `rel-ed-9`, `ethics-2101`, `ethics-2106`, `world-religions-3101`, `world-religions-3106` |
-| Visual Art | `art-4` … `art-9`, `art-1202`, `art-2202`, `art-3202` |
-| Music | `music-4` … `music-9`, `ensemble-1105`, `ensemble-2105`, `ensemble-3105`, `applied-music-2206`, `applied-music-3206`, `experiencing-music-2200` |
+| Health 4 | `health-4` |
+| Health 5 | `health-5` |
+| Health 6 | `health-6` |
+| Health 7 | `health-7` |
+| Health 8 | `health-8` |
+| Health 9 | `health-9` |
+| Physical Education 4 | `phys-ed-4` |
+| Physical Education 5 | `phys-ed-5` |
+| Physical Education 6 | `phys-ed-6` |
+| Physical Education 7 | `phys-ed-7` |
+| Physical Education 8 | `phys-ed-8` |
+| Physical Education 9 | `phys-ed-9` |
+| Physical Education 2100 | `phys-ed-2100` |
+| Physical Education 2101 | `phys-ed-2101` |
+| Physical Education 3100 | `phys-ed-3100` |
+| Physical Education 3101 | `phys-ed-3101` |
+| Religious Education 4 | `rel-ed-4` |
+| Religious Education 5 | `rel-ed-5` |
+| Religious Education 6 | `rel-ed-6` |
+| Religious Education 7 | `rel-ed-7` |
+| Religious Education 8 | `rel-ed-8` |
+| Religious Education 9 | `rel-ed-9` |
+| Ethics 2101 | `ethics-2101` |
+| Ethics 2106 | `ethics-2106` |
+| World Religions 3101 | `world-religions-3101` |
+| World Religions 3106 | `world-religions-3106` |
+| Visual Art 4 | `art-4` |
+| Visual Art 5 | `art-5` |
+| Visual Art 6 | `art-6` |
+| Visual Art 7 | `art-7` |
+| Visual Art 8 | `art-8` |
+| Visual Art 9 | `art-9` |
+| Visual Art 1202 | `art-1202` |
+| Visual Art 2202 | `art-2202` |
+| Visual Art 3202 | `art-3202` |
+| Music 4 | `music-4` |
+| Music 5 | `music-5` |
+| Music 6 | `music-6` |
+| Music 7 | `music-7` |
+| Music 8 | `music-8` |
+| Music 9 | `music-9` |
+| Ensemble 1105 | `ensemble-1105` |
+| Ensemble 2105 | `ensemble-2105` |
+| Ensemble 3105 | `ensemble-3105` |
+| Applied Music 2206 | `applied-music-2206` |
+| Applied Music 3206 | `applied-music-3206` |
+| Experiencing Music 2200 | `experiencing-music-2200` |
 
 ## L2 unit / strand slugs
 
