@@ -440,5 +440,23 @@
     "created_at": "2026-10-15T17:44:32Z",
     "updated_at": "2026-10-17T12:31:57Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/B2201QuadratSamplingSimulation/main/index.html"
+  },
+  {
+    "name": "S1206WeatherDataCollection",
+    "description": "",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/S1206WeatherDataCollection/",
+    "repo": "https://github.com/CDLI-NLSchools/S1206WeatherDataCollection",
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-10-20T01:11:51Z",
+    "updated_at": "2026-10-21T00:27:51Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/S1206WeatherDataCollection/main/index.html"
   }
 ]
