@@ -103,11 +103,32 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
+          # docs/ is fully generated output, so never rebase it: a generated
+          # file cannot be merged, and the rebase dies whenever another commit
+          # lands on main mid-run (tag guardian, repo edits). Instead: park
+          # the fresh build, sync to the latest main, lay the build back on
+          # top, and commit. If the push loses a race, re-sync and retry once.
+          cp -r docs /tmp/built-docs
+          pushed=0
+          for attempt in 1 2; do
+            git fetch origin main
+            git reset --hard origin/main
+            rm -rf docs
+            cp -r /tmp/built-docs docs
+            git add docs/
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              pushed=1
+              break
+            fi
             git commit -m "Daily refresh: rebuild index $(date -u +%Y-%m-%d)"
-            git pull --rebase --autostash origin main
-            git push
+            if git push origin HEAD:main; then
+              pushed=1
+              break
+            fi
+            echo "Push raced another commit; re-syncing and retrying."
+          done
+          if [ "$pushed" != "1" ]; then
+            echo "Could not publish the rebuilt index." >&2
+            exit 1
           fi
