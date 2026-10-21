@@ -183,7 +183,7 @@
   },
   {
     "name": "VectorResolution",
-    "description": "",
+    "description": "Interactive learning application.",
     "category": "Interactive",
     "courses": [],
     "status": "active",
@@ -191,30 +191,38 @@
     "repo": "https://github.com/CDLI-NLSchools/VectorResolution",
     "tags": [],
     "creator": {
-      "login": "teacherbrothen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
-      "url": "https://github.com/teacherbrothen"
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-08-25T00:57:56Z",
-    "updated_at": "2026-10-21T00:27:04Z",
+    "updated_at": "2026-10-21T05:47:55Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/VectorResolution/main/index.html"
   },
   {
     "name": "NetForce",
     "description": "",
-    "category": "Interactive",
-    "courses": [],
+    "category": "Physics 2204",
+    "courses": [
+      {
+        "tag": "physics-2204",
+        "name": "Physics 2204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/NetForce/",
     "repo": "https://github.com/CDLI-NLSchools/NetForce",
-    "tags": [],
+    "tags": [
+      "dynamics",
+      "physics-2204"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-08-25T01:18:35Z",
-    "updated_at": "2026-10-21T00:17:27Z",
+    "updated_at": "2026-10-21T05:47:56Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NetForce/main/index.html"
   },
   {
