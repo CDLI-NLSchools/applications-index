@@ -452,19 +452,26 @@
   {
     "name": "S1206WeatherDataCollection",
     "description": "Interactive learning application.",
-    "category": "Interactive",
-    "courses": [],
+    "category": "Science 1206",
+    "courses": [
+      {
+        "tag": "science-1206",
+        "name": "Science 1206"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/S1206WeatherDataCollection/",
     "repo": "https://github.com/CDLI-NLSchools/S1206WeatherDataCollection",
-    "tags": [],
+    "tags": [
+      "science-1206"
+    ],
     "creator": {
       "login": "teacherbrothen",
       "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
       "url": "https://github.com/teacherbrothen"
     },
     "created_at": "2026-10-20T01:11:51Z",
-    "updated_at": "2026-10-21T05:48:42Z",
+    "updated_at": "2026-10-22T23:49:11Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/S1206WeatherDataCollection/main/index.html"
   },
   {
@@ -482,7 +489,7 @@
       "url": "https://github.com/TLmikefwalter"
     },
     "created_at": "2026-10-22T17:05:58Z",
-    "updated_at": "2026-10-22T17:11:33Z",
+    "updated_at": "2026-10-22T17:15:19Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/DeskGooseDressUp/main/index.html"
   }
 ]
