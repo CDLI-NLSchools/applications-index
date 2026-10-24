@@ -499,5 +499,23 @@
     "created_at": "2026-10-22T17:05:58Z",
     "updated_at": "2026-10-22T17:15:19Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/DeskGooseDressUp/main/index.html"
+  },
+  {
+    "name": "3204HorizontalLauchProblemAndKeyGenerator",
+    "description": "",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/3204HorizontalLauchProblemAndKeyGenerator/",
+    "repo": "https://github.com/CDLI-NLSchools/3204HorizontalLauchProblemAndKeyGenerator",
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-10-24T16:03:23Z",
+    "updated_at": "2026-10-24T16:04:35Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/3204HorizontalLauchProblemAndKeyGenerator/main/index.html"
   }
 ]
