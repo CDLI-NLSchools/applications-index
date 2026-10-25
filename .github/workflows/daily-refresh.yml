@@ -27,7 +27,7 @@ jobs:
             const fs = require('fs');
             const org = 'cdli-nlschools';
             // Repos that are infrastructure, not student-facing applications
-            const excluded = new Set(['applications-index', 'cdli-template-sim', 'course-template-demo', 'demo-repository', 'DeskGooseDressUp', 'SameMeanDifferentSpread', 'StandardDeviationVisualizer', 'NormalCurveExplorer', 'ConfidenceIntervalSimulator', 'FrequencyTableLab']);
+            const excluded = new Set(['applications-index', 'cdli-template-sim', 'course-template-demo', 'demo-repository', 'DeskGooseDressUp']);
             // L1 course catalog from TAGGING.md: tag -> human-readable course name.
             // Drives the "Course" sort and the card category. Tags not in the
             // catalog are treated as unit/strand (L2) or non-curriculum tags.
@@ -46,7 +46,9 @@ jobs:
             // Belt and braces: the API call above already asks for public repos only,
             // but explicitly drop anything private here so a private repo can never
             // leak into the public index, even if the API call is changed later.
-            const live = repos.filter(r => !r.private && !r.archived && !excluded.has(r.name));
+            // Repos tagged `draft` are works in progress: live on Pages for testing
+            // and embedding, but kept out of the public index until the topic is removed.
+            const live = repos.filter(r => !r.private && !r.archived && !excluded.has(r.name) && !(r.topics || []).includes('draft'));
             const apps = [];
             for (const r of live) {
               // Top contributor = the application's creator in practice
