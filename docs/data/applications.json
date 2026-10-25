@@ -503,19 +503,26 @@
   {
     "name": "3204HorizontalLauchProblemAndKeyGenerator",
     "description": "Interactive learning application.",
-    "category": "Interactive",
-    "courses": [],
+    "category": "Physics 3204",
+    "courses": [
+      {
+        "tag": "physics-3204",
+        "name": "Physics 3204"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/3204HorizontalLauchProblemAndKeyGenerator/",
     "repo": "https://github.com/CDLI-NLSchools/3204HorizontalLauchProblemAndKeyGenerator",
-    "tags": [],
+    "tags": [
+      "physics-3204"
+    ],
     "creator": {
       "login": "jasoncounsel",
       "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
       "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-10-24T16:03:23Z",
-    "updated_at": "2026-10-25T05:47:54Z",
+    "updated_at": "2026-10-25T12:26:04Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/3204HorizontalLauchProblemAndKeyGenerator/main/index.html"
   }
 ]
