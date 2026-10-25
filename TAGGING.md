@@ -281,3 +281,11 @@ rare — prefer curriculum tags.
   the catalog here first, then retag affected repos.
 - The daily-refresh workflow passes GitHub topics through unchanged — what you
   put in Topics is what the index shows. Keep topics within this taxonomy.
+
+## Status tags
+
+These topics describe where an app is in its life, not what it teaches. They can sit alongside course and strand tags.
+
+| Tag | Meaning |
+|---|---|
+| `draft` | Work in progress. The daily index build skips any repo carrying this topic, so the app stays out of the public applications index while remaining live on GitHub Pages for testing and embedding. Remove the topic when the app is ready to be listed; it appears at the next daily refresh. |
