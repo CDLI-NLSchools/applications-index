@@ -27,7 +27,7 @@ jobs:
             const fs = require('fs');
             const org = 'cdli-nlschools';
             // Repos that are infrastructure, not student-facing applications
-            const excluded = new Set(['applications-index', 'cdli-template-sim', 'course-template-demo', 'demo-repository']);
+            const excluded = new Set(['applications-index', 'cdli-template-sim', 'course-template-demo', 'demo-repository', 'DeskGooseDressUp']);
             // L1 course catalog from TAGGING.md: tag -> human-readable course name.
             // Drives the "Course" sort and the card category. Tags not in the
             // catalog are treated as unit/strand (L2) or non-curriculum tags.
