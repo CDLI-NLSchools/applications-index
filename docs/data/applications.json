@@ -484,7 +484,7 @@
   },
   {
     "name": "3204HorizontalLauchProblemAndKeyGenerator",
-    "description": "Interactive learning application.",
+    "description": "Interactive Physics 3204 simulation.",
     "category": "Physics 3204",
     "courses": [
       {
@@ -504,7 +504,7 @@
       "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-10-24T16:03:23Z",
-    "updated_at": "2026-10-25T12:26:04Z",
+    "updated_at": "2026-10-26T05:47:44Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/3204HorizontalLauchProblemAndKeyGenerator/main/index.html"
   },
   {
