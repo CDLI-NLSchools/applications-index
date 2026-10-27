@@ -550,5 +550,41 @@
     "created_at": "2026-10-27T17:40:04Z",
     "updated_at": "2026-10-27T17:40:51Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/S1206IonicCovalentIdentifier/main/index.html"
+  },
+  {
+    "name": "DiscriminantPredictor",
+    "description": "Math 2201 practice app: predict the number of real roots of a quadratic, then check with the discriminant and graph.",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/DiscriminantPredictor/",
+    "repo": "https://github.com/CDLI-NLSchools/DiscriminantPredictor",
+    "tags": [],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-27T20:41:28Z",
+    "updated_at": "2026-10-27T20:41:30Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/DiscriminantPredictor/main/index.html"
+  },
+  {
+    "name": "QuadraticFormulaWorkout",
+    "description": "Math 2201 practice app: solve quadratics with the quadratic formula one checked step at a time, in exact form.",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/QuadraticFormulaWorkout/",
+    "repo": "https://github.com/CDLI-NLSchools/QuadraticFormulaWorkout",
+    "tags": [],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-27T20:41:32Z",
+    "updated_at": "2026-10-27T20:41:33Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/QuadraticFormulaWorkout/main/index.html"
   }
 ]
