@@ -532,5 +532,23 @@
     "created_at": "2026-10-25T15:43:45Z",
     "updated_at": "2026-10-26T05:48:05Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/FrequencyTableLab/main/index.html"
+  },
+  {
+    "name": "S1206IonicCovalentIdentifier",
+    "description": "",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/S1206IonicCovalentIdentifier/",
+    "repo": "https://github.com/CDLI-NLSchools/S1206IonicCovalentIdentifier",
+    "tags": [],
+    "creator": {
+      "login": "teacherbrothen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/306269261?v=4",
+      "url": "https://github.com/teacherbrothen"
+    },
+    "created_at": "2026-10-27T17:40:04Z",
+    "updated_at": "2026-10-27T17:40:51Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/S1206IonicCovalentIdentifier/main/index.html"
   }
 ]
