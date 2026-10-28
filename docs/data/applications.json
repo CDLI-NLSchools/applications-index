@@ -536,19 +536,27 @@
   {
     "name": "S1206IonicCovalentIdentifier",
     "description": "Interactive learning application.",
-    "category": "Interactive",
-    "courses": [],
+    "category": "Science 1206",
+    "courses": [
+      {
+        "tag": "science-1206",
+        "name": "Science 1206"
+      }
+    ],
     "status": "active",
     "url": "https://cdli-nlschools.github.io/S1206IonicCovalentIdentifier/",
     "repo": "https://github.com/CDLI-NLSchools/S1206IonicCovalentIdentifier",
-    "tags": [],
+    "tags": [
+      "chemical-reactions",
+      "science-1206"
+    ],
     "creator": {
       "login": "jasoncounsel",
       "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
       "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-10-27T17:40:04Z",
-    "updated_at": "2026-10-28T05:48:02Z",
+    "updated_at": "2026-10-28T10:29:40Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/S1206IonicCovalentIdentifier/main/index.html"
   }
 ]
