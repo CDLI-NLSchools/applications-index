@@ -609,23 +609,5 @@
     "created_at": "2026-10-29T17:58:41Z",
     "updated_at": "2026-10-30T15:55:23Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
-  },
-  {
-    "name": "EconomicEmpowermentChoiceBoard",
-    "description": "Grade 7 STEAM choice board app: comic strip, digital poster, or pet rock photo essay planner for Explore the Land, Lesson 7 Extension.",
-    "category": "Interactive",
-    "courses": [],
-    "status": "active",
-    "url": "https://cdli-nlschools.github.io/EconomicEmpowermentChoiceBoard/",
-    "repo": "https://github.com/CDLI-NLSchools/EconomicEmpowermentChoiceBoard",
-    "tags": [],
-    "creator": {
-      "login": "jasoncounsel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
-      "url": "https://github.com/jasoncounsel"
-    },
-    "created_at": "2026-10-30T22:33:56Z",
-    "updated_at": "2026-10-30T22:33:58Z",
-    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/EconomicEmpowermentChoiceBoard/main/index.html"
   }
 ]
