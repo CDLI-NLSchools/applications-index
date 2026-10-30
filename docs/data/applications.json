@@ -609,5 +609,23 @@
     "created_at": "2026-10-29T17:58:41Z",
     "updated_at": "2026-10-30T15:55:23Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
+  },
+  {
+    "name": "HowTheMusicMovesYou",
+    "description": "Grade 9 STEAM, Beyond Our Planet, Lesson 8 extension: a listening journal built around the assigned Rocket Man video, a five-song personal soundtrack, and an illustration. Formative only.",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/HowTheMusicMovesYou/",
+    "repo": "https://github.com/CDLI-NLSchools/HowTheMusicMovesYou",
+    "tags": [],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T23:15:37Z",
+    "updated_at": "2026-10-30T23:15:38Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HowTheMusicMovesYou/main/index.html"
   }
 ]
