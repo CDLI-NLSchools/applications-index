@@ -508,6 +508,32 @@
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/3204HorizontalLauchProblemAndKeyGenerator/main/index.html"
   },
   {
+    "name": "SameMeanDifferentSpread",
+    "description": "Math 2201 Unit 5 Section 1 interactive: compare data sets that share a mean but differ in spread.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/SameMeanDifferentSpread/",
+    "repo": "https://github.com/CDLI-NLSchools/SameMeanDifferentSpread",
+    "tags": [
+      "math-2201",
+      "statistical-reasoning"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-25T15:43:09Z",
+    "updated_at": "2026-10-30T00:50:11Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/SameMeanDifferentSpread/main/index.html"
+  },
+  {
     "name": "FrequencyTableLab",
     "description": "Math 2201 Unit 5 Section 2 activity: from a personal data code, build the frequency table and histogram, self-check, and print a work sheet.",
     "category": "Academic Mathematics 2201",
@@ -558,5 +584,30 @@
     "created_at": "2026-10-27T17:40:04Z",
     "updated_at": "2026-10-29T05:48:07Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/S1206IonicCovalentIdentifier/main/index.html"
+  },
+  {
+    "name": "HistogramBuilder",
+    "description": "Math 2201 Histogram Builder — students choose the scale and set the bar heights themselves, then plot the frequency polygon. Formative practice.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/HistogramBuilder/",
+    "repo": "https://github.com/CDLI-NLSchools/HistogramBuilder",
+    "tags": [
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-29T17:58:41Z",
+    "updated_at": "2026-10-30T00:50:13Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
   }
 ]
