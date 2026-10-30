@@ -609,23 +609,5 @@
     "created_at": "2026-10-29T17:58:41Z",
     "updated_at": "2026-10-30T15:55:23Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
-  },
-  {
-    "name": "WholeHealthBrainstorm",
-    "description": "Brainstorming: Whole Health. Grade 8 STEAM, Lesson 1: Whole Health. Formative brainstorm board, replaces a Jamboard activity.",
-    "category": "Interactive",
-    "courses": [],
-    "status": "active",
-    "url": "https://cdli-nlschools.github.io/WholeHealthBrainstorm/",
-    "repo": "https://github.com/CDLI-NLSchools/WholeHealthBrainstorm",
-    "tags": [],
-    "creator": {
-      "login": "jasoncounsel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
-      "url": "https://github.com/jasoncounsel"
-    },
-    "created_at": "2026-10-30T21:43:18Z",
-    "updated_at": "2026-10-30T21:43:19Z",
-    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/WholeHealthBrainstorm/main/index.html"
   }
 ]
