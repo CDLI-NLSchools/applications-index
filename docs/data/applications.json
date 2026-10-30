@@ -609,5 +609,23 @@
     "created_at": "2026-10-29T17:58:41Z",
     "updated_at": "2026-10-30T15:55:23Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
+  },
+  {
+    "name": "MapOfMe",
+    "description": "Grade 9 STEAM personal trait map: students star inherited traits and answer questions about heredity.",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/MapOfMe/",
+    "repo": "https://github.com/CDLI-NLSchools/MapOfMe",
+    "tags": [],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T22:35:28Z",
+    "updated_at": "2026-10-30T22:35:29Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/MapOfMe/main/index.html"
   }
 ]
