@@ -609,5 +609,23 @@
     "created_at": "2026-10-29T17:58:41Z",
     "updated_at": "2026-10-31T13:51:17Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
+  },
+  {
+    "name": "ScaleFactorExplorer",
+    "description": "Math 2201 Scale Factor Explorer: students vary k and watch area, surface area and volume respond, then recover k from ratios.",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/ScaleFactorExplorer/",
+    "repo": "https://github.com/CDLI-NLSchools/ScaleFactorExplorer",
+    "tags": [],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-31T21:08:15Z",
+    "updated_at": "2026-10-31T21:08:17Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ScaleFactorExplorer/main/index.html"
   }
 ]
