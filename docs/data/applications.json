@@ -587,7 +587,7 @@
   },
   {
     "name": "HistogramBuilder",
-    "description": "Math 2201 Histogram Builder — students choose the scale and set the bar heights themselves, then plot the frequency polygon. Formative practice.",
+    "description": "Math 2201 Histogram Builder: students choose the scale and set the bar heights themselves, then plot the frequency polygon.",
     "category": "Academic Mathematics 2201",
     "courses": [
       {
@@ -607,7 +607,7 @@
       "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-10-29T17:58:41Z",
-    "updated_at": "2026-10-30T15:55:23Z",
+    "updated_at": "2026-10-31T13:51:17Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
   }
 ]
