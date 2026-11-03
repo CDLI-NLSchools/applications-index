@@ -609,23 +609,5 @@
     "created_at": "2026-10-29T17:58:41Z",
     "updated_at": "2026-10-31T13:51:17Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
-  },
-  {
-    "name": "ProofBuilder",
-    "description": "Build deductive proofs step by step: choose a representation that covers every case, assemble the steps, and prove number tricks with symbols, then create your own trick. Math 2201 Unit 7 practice with a printable proof record.",
-    "category": "Interactive",
-    "courses": [],
-    "status": "active",
-    "url": "https://cdli-nlschools.github.io/ProofBuilder/",
-    "repo": "https://github.com/CDLI-NLSchools/ProofBuilder",
-    "tags": [],
-    "creator": {
-      "login": "jasoncounsel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
-      "url": "https://github.com/jasoncounsel"
-    },
-    "created_at": "2026-11-03T01:26:16Z",
-    "updated_at": "2026-11-03T01:26:17Z",
-    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ProofBuilder/main/index.html"
   }
 ]
