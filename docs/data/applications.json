@@ -609,5 +609,23 @@
     "created_at": "2026-10-29T17:58:41Z",
     "updated_at": "2026-10-31T13:51:17Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
+  },
+  {
+    "name": "TransversalLab",
+    "description": "Interactive practice for angle relationships on parallel lines and a transversal: explore the eight angles, name the pair, compute with a reason, and judge parallel or not (Math 2201, Unit 8).",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/TransversalLab/",
+    "repo": "https://github.com/CDLI-NLSchools/TransversalLab",
+    "tags": [],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:20:15Z",
+    "updated_at": "2026-11-03T01:20:25Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/TransversalLab/main/index.html"
   }
 ]
