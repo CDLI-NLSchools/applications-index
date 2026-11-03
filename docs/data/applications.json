@@ -609,5 +609,23 @@
     "created_at": "2026-10-29T17:58:41Z",
     "updated_at": "2026-10-31T13:51:17Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
+  },
+  {
+    "name": "CongruenceConstructor",
+    "description": "Test which sets of given parts force exactly one triangle, read congruence statements off tick and arc marks, and assemble and repair two-column proofs (Math 2201, Unit 8).",
+    "category": "Interactive",
+    "courses": [],
+    "status": "active",
+    "url": "https://cdli-nlschools.github.io/CongruenceConstructor/",
+    "repo": "https://github.com/CDLI-NLSchools/CongruenceConstructor",
+    "tags": [],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:21:10Z",
+    "updated_at": "2026-11-03T01:21:11Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/CongruenceConstructor/main/index.html"
   }
 ]
