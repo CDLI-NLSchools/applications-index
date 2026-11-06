@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drafts Awaiting QA — Applications Index — CDLI · NLSchools</title>
+    <link rel="icon" href="favicon.jpg" />
+    <script type="module" crossorigin src="./assets/drafts-DbEPJWZI.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/style-B30LR3Rm.js">
+    <link rel="stylesheet" crossorigin href="./assets/style-BnzOIHN0.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <div class="logos">
+          <img src="cdli-logo.png" alt="CDLI — Centre for Distance Learning and Innovation" onerror="this.style.display='none'" />
+          <img src="nlschools-logo.png" alt="NLSchools" onerror="this.style.display='none'" />
+        </div>
+        <h1>Drafts Awaiting QA</h1>
+        <p class="preamble">
+          Applications still in progress. Each draft is live for testing and
+          embedding, but it is not on the public Applications Index until QA
+          approval removes its draft marker. Creators: this list shows what is
+          currently being worked on across the community.
+        </p>
+        <p class="page-nav"><a href="index.html">Back to the Applications Index</a></p>
+      </header>
+      <div class="controls">
+        <label class="search-label">Search
+          <input id="search" type="search" placeholder="Name, topic, teacher…" />
+        </label>
+        <label class="sort-label">Sort by
+          <select id="sort">
+            <option value="name">Name (A–Z)</option>
+            <option value="topic">Topic</option>
+            <option value="course">Course</option>
+            <option value="teacher">Teacher</option>
+            <option value="newest">Newest first</option>
+            <option value="updated">Recently updated</option>
+          </select>
+        </label>
+        <div id="topics" class="topics"></div>
+      </div>
+      <div id="list">Loading…</div>
+      <footer class="site-footer">
+        <span id="count"></span> · refreshed daily
+      </footer>
+    </div>
+  </body>
+</html>
