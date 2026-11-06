@@ -263,6 +263,12 @@ Descriptive lowercase-hyphen tags for apps outside the curriculum, e.g.
 course, so it stays visibly separate from curriculum-tagged apps. Keep these
 rare — prefer curriculum tags.
 
+## Language tags
+
+| Tag | Meaning |
+|---|---|
+| `french-translation` | The French translation of an app that also exists in English. The translated app lives in its own repo and carries its own course and unit tags plus this one, so French versions filter cleanly in the applications index. The FFL Drive watcher applies it to every app it syncs. |
+
 ## Migrating old tags
 
 | Old | New |
