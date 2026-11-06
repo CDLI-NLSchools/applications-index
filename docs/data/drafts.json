@@ -1093,7 +1093,7 @@
     "repo": "https://github.com/CDLI-NLSchools/S1206FFLHeatCapacityLab",
     "tags": [
       "draft",
-      "french",
+      "french-translation",
       "science-1206",
       "weather-dynamics"
     ],
@@ -1103,7 +1103,7 @@
       "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-11-05T14:58:16Z",
-    "updated_at": "2026-11-05T14:58:44Z",
+    "updated_at": "2026-11-06T14:42:34Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/S1206FFLHeatCapacityLab/main/index.html"
   },
   {
