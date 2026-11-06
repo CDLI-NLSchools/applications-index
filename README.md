@@ -32,4 +32,6 @@ Then push to GitHub. Configure Pages to serve from branch `main` → folder `doc
 
 A GitHub Actions workflow (.github/workflows/daily-refresh.yml) runs daily at 06:00 UTC (and on demand via workflow_dispatch). It scans the CDLI-NLSchools org for public repos, writes `public/data/applications.json` (linking each app to its GitHub Pages URL, skipping infrastructure repos like this one and the sim template), rebuilds the site into `docs/`, and commits the result to `main`. GitHub Pages serves the site from branch `main` → folder `docs/`, so the index stays current automatically.
 
+Repos tagged `draft` are works in progress: they stay out of `applications.json`, and the same scan writes them to `public/data/drafts.json` instead. The site builds a second page, `drafts.html`, from that file, listing only the drafts awaiting QA approval. Removing the `draft` topic from a repo moves it to the public index at the next refresh.
+
 Note: `npm run update-index` / `scripts/update-index.js` is a separate local-dev helper that fetches index data from a `DATA_SOURCE_URL`. The automated workflow does not use it; it generates the index directly from the GitHub API.

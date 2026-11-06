@@ -139,3 +139,31 @@ button.tag:hover { background: #e6ecf2; }
   color: #333;
   resize: none;
 }
+
+.page-nav { margin: .75rem 0 0; font-size: .9rem; }
+.page-nav a { color: #0366d6; text-decoration: none; }
+.page-nav a:hover { text-decoration: underline; }
+
+.search-label { font-size: .9rem; color: #444; }
+.search-label input {
+  margin-left: .4rem;
+  padding: .3rem .5rem;
+  font-size: .9rem;
+  border: 1px solid #c8d0d8;
+  border-radius: 6px;
+  min-width: 200px;
+}
+
+.draft-badge {
+  display: inline-block;
+  background: #fff8e1;
+  border: 1px solid #e3c878;
+  color: #7a5b00;
+  border-radius: 999px;
+  padding: .15rem .6rem;
+  font-size: .72rem;
+  font-weight: 650;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  margin-bottom: .55rem;
+}

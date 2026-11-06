@@ -1,0 +1,1081 @@
+[
+  {
+    "name": "StandardDeviationVisualizer",
+    "description": "Math 2201 Unit 5 Section 3 interactive: visualize how standard deviation measures spread around the mean.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/StandardDeviationVisualizer/",
+    "repo": "https://github.com/CDLI-NLSchools/StandardDeviationVisualizer",
+    "tags": [
+      "draft",
+      "math-2201",
+      "statistical-reasoning"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-25T15:43:18Z",
+    "updated_at": "2026-10-26T05:47:56Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/StandardDeviationVisualizer/main/index.html"
+  },
+  {
+    "name": "NormalCurveExplorer",
+    "description": "Math 2201 Unit 5 Section 4 interactive: explore the normal curve and how mean and standard deviation shape it.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/NormalCurveExplorer/",
+    "repo": "https://github.com/CDLI-NLSchools/NormalCurveExplorer",
+    "tags": [
+      "draft",
+      "math-2201",
+      "statistical-reasoning"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-25T15:43:28Z",
+    "updated_at": "2026-10-26T05:47:59Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/NormalCurveExplorer/main/index.html"
+  },
+  {
+    "name": "ConfidenceIntervalSimulator",
+    "description": "Math 2201 Unit 5 Section 6 interactive: simulate repeated samples and watch confidence intervals capture the true mean.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/ConfidenceIntervalSimulator/",
+    "repo": "https://github.com/CDLI-NLSchools/ConfidenceIntervalSimulator",
+    "tags": [
+      "draft",
+      "math-2201",
+      "statistical-reasoning"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-25T15:43:37Z",
+    "updated_at": "2026-10-26T05:48:02Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ConfidenceIntervalSimulator/main/index.html"
+  },
+  {
+    "name": "Math2201Review",
+    "description": "Math 2201 dynamic review practice by unit, indicator and level, with online mode, printable sheets and worked solutions.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/Math2201Review/",
+    "repo": "https://github.com/CDLI-NLSchools/Math2201Review",
+    "tags": [
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-26T22:52:14Z",
+    "updated_at": "2026-10-30T02:03:05Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/Math2201Review/main/index.html"
+  },
+  {
+    "name": "DiscriminantPredictor",
+    "description": "Math 2201 practice app: predict the number of real roots of a quadratic, then check with the discriminant and graph.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/DiscriminantPredictor/",
+    "repo": "https://github.com/CDLI-NLSchools/DiscriminantPredictor",
+    "tags": [
+      "draft",
+      "math-2201",
+      "quadratic-equations"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-27T20:41:28Z",
+    "updated_at": "2026-10-28T05:48:08Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/DiscriminantPredictor/main/index.html"
+  },
+  {
+    "name": "QuadraticFormulaWorkout",
+    "description": "Math 2201 practice app: solve quadratics with the quadratic formula one checked step at a time, in exact form.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/QuadraticFormulaWorkout/",
+    "repo": "https://github.com/CDLI-NLSchools/QuadraticFormulaWorkout",
+    "tags": [
+      "draft",
+      "math-2201",
+      "quadratic-equations"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-27T20:41:32Z",
+    "updated_at": "2026-10-28T05:48:11Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/QuadraticFormulaWorkout/main/index.html"
+  },
+  {
+    "name": "RadicalSimplifyWorkout",
+    "description": "Math 2201 Unit 4: simplify square and cube roots (numbers and variables), mixed and entire radicals, compare and order, restrictions",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/RadicalSimplifyWorkout/",
+    "repo": "https://github.com/CDLI-NLSchools/RadicalSimplifyWorkout",
+    "tags": [
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-28T01:52:53Z",
+    "updated_at": "2026-10-28T16:37:56Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/RadicalSimplifyWorkout/main/index.html"
+  },
+  {
+    "name": "RadicalOperationsWorkout",
+    "description": "Math 2201 Unit 4: add, subtract, multiply, divide and rationalize radicals, numbers and variables \u2014 generated practice with step help",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/RadicalOperationsWorkout/",
+    "repo": "https://github.com/CDLI-NLSchools/RadicalOperationsWorkout",
+    "tags": [
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-28T01:54:02Z",
+    "updated_at": "2026-11-01T20:18:47Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/RadicalOperationsWorkout/main/index.html"
+  },
+  {
+    "name": "RadicalEquationsWorkout",
+    "description": "Math 2201 Unit 4: solve radical equations with a mandatory substitution check; planted extraneous roots, worked openers, step help",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/RadicalEquationsWorkout/",
+    "repo": "https://github.com/CDLI-NLSchools/RadicalEquationsWorkout",
+    "tags": [
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-28T01:56:54Z",
+    "updated_at": "2026-10-28T10:29:44Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/RadicalEquationsWorkout/main/index.html"
+  },
+  {
+    "name": "CheckInFlipbooksAndZines",
+    "description": "Formative pre-learning check-in for Grade 7 STEAM, Lesson 6: Flipbooks and Zines. No score, nothing submitted.",
+    "category": "Visual Art 7",
+    "courses": [
+      {
+        "tag": "art-7",
+        "name": "Visual Art 7"
+      },
+      {
+        "tag": "science-7",
+        "name": "Science 7"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/CheckInFlipbooksAndZines/",
+    "repo": "https://github.com/CDLI-NLSchools/CheckInFlipbooksAndZines",
+    "tags": [
+      "art-7",
+      "draft",
+      "science-7"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T21:42:39Z",
+    "updated_at": "2026-10-31T13:21:39Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/CheckInFlipbooksAndZines/main/index.html"
+  },
+  {
+    "name": "WhatDoYouKnowAboutLight",
+    "description": "Formative pre-learning check-in for Grade 8 STEAM, Lesson 1: Introduction to Light. No score, nothing submitted.",
+    "category": "Science 8",
+    "courses": [
+      {
+        "tag": "science-8",
+        "name": "Science 8"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/WhatDoYouKnowAboutLight/",
+    "repo": "https://github.com/CDLI-NLSchools/WhatDoYouKnowAboutLight",
+    "tags": [
+      "draft",
+      "optics",
+      "science-8"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T21:42:49Z",
+    "updated_at": "2026-10-31T13:20:31Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/WhatDoYouKnowAboutLight/main/index.html"
+  },
+  {
+    "name": "LightRaysCheckIn",
+    "description": "Formative pre-learning check-in for Grade 8 STEAM, Lesson 6: Light Rays. No score, nothing submitted.",
+    "category": "Science 8",
+    "courses": [
+      {
+        "tag": "science-8",
+        "name": "Science 8"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/LightRaysCheckIn/",
+    "repo": "https://github.com/CDLI-NLSchools/LightRaysCheckIn",
+    "tags": [
+      "draft",
+      "optics",
+      "science-8"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T21:42:58Z",
+    "updated_at": "2026-10-31T13:20:35Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/LightRaysCheckIn/main/index.html"
+  },
+  {
+    "name": "WholeHealthBrainstorm",
+    "description": "Brainstorming: Whole Health. Grade 8 STEAM, Lesson 1: Whole Health. Formative brainstorm board, replaces a Jamboard activity.",
+    "category": "Health 8",
+    "courses": [
+      {
+        "tag": "health-8",
+        "name": "Health 8"
+      },
+      {
+        "tag": "science-8",
+        "name": "Science 8"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/WholeHealthBrainstorm/",
+    "repo": "https://github.com/CDLI-NLSchools/WholeHealthBrainstorm",
+    "tags": [
+      "cells-tissues-organs",
+      "draft",
+      "health-8",
+      "science-8"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T21:43:18Z",
+    "updated_at": "2026-10-31T13:21:46Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/WholeHealthBrainstorm/main/index.html"
+  },
+  {
+    "name": "WholeHealthGoalSetting",
+    "description": "Setting Goals: My Health Goal. Grade 8 STEAM, Lesson 1: Whole Health. Formative goal-setting card, replaces a Jamboard activity.",
+    "category": "Health 8",
+    "courses": [
+      {
+        "tag": "health-8",
+        "name": "Health 8"
+      },
+      {
+        "tag": "science-8",
+        "name": "Science 8"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/WholeHealthGoalSetting/",
+    "repo": "https://github.com/CDLI-NLSchools/WholeHealthGoalSetting",
+    "tags": [
+      "cells-tissues-organs",
+      "draft",
+      "health-8",
+      "science-8"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T21:43:43Z",
+    "updated_at": "2026-10-31T13:21:49Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/WholeHealthGoalSetting/main/index.html"
+  },
+  {
+    "name": "HeartRateGraph",
+    "description": "Grade 8 STEAM, Body, Mind & Soul, Lesson 3 extension: graph resting heart rates of seven animals and self-check against the key.",
+    "category": "Science 8",
+    "courses": [
+      {
+        "tag": "science-8",
+        "name": "Science 8"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/HeartRateGraph/",
+    "repo": "https://github.com/CDLI-NLSchools/HeartRateGraph",
+    "tags": [
+      "cells-tissues-organs",
+      "draft",
+      "science-8"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T21:50:50Z",
+    "updated_at": "2026-10-31T13:49:50Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HeartRateGraph/main/index.html"
+  },
+  {
+    "name": "BreathingRateGraph",
+    "description": "Grade 8 STEAM, Body, Mind & Soul, Lesson 3 extension: graph your breathing rate at four activity levels and compare with the key.",
+    "category": "Science 8",
+    "courses": [
+      {
+        "tag": "science-8",
+        "name": "Science 8"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/BreathingRateGraph/",
+    "repo": "https://github.com/CDLI-NLSchools/BreathingRateGraph",
+    "tags": [
+      "cells-tissues-organs",
+      "draft",
+      "science-8"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T21:51:05Z",
+    "updated_at": "2026-10-31T13:49:52Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/BreathingRateGraph/main/index.html"
+  },
+  {
+    "name": "EcosystemsSorting",
+    "description": "Grade 7 STEAM ecosystems sorting: one bank of 20 factors, five scenes, formative with a printable summary.",
+    "category": "Science 7",
+    "courses": [
+      {
+        "tag": "science-7",
+        "name": "Science 7"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/EcosystemsSorting/",
+    "repo": "https://github.com/CDLI-NLSchools/EcosystemsSorting",
+    "tags": [
+      "draft",
+      "ecosystems",
+      "science-7"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T22:14:55Z",
+    "updated_at": "2026-10-31T13:20:14Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/EcosystemsSorting/main/index.html"
+  },
+  {
+    "name": "RockCycleReflection",
+    "description": "Grade 7 STEAM final reflection on the rock cycle (Explore the Land, Lesson 3). Single-file formative app: no score, nothing submitted.",
+    "category": "Science 7",
+    "courses": [
+      {
+        "tag": "science-7",
+        "name": "Science 7"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/RockCycleReflection/",
+    "repo": "https://github.com/CDLI-NLSchools/RockCycleReflection",
+    "tags": [
+      "draft",
+      "earths-crust",
+      "science-7"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T22:27:57Z",
+    "updated_at": "2026-10-31T13:20:17Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/RockCycleReflection/main/index.html"
+  },
+  {
+    "name": "MyPetRock",
+    "description": "Grade 7 STEAM pet rock designer studio (Explore the Land, Lesson 3 Extension). Decorate a rock, place it in a scene, print a pet rock card.",
+    "category": "Visual Art 7",
+    "courses": [
+      {
+        "tag": "art-7",
+        "name": "Visual Art 7"
+      },
+      {
+        "tag": "science-7",
+        "name": "Science 7"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/MyPetRock/",
+    "repo": "https://github.com/CDLI-NLSchools/MyPetRock",
+    "tags": [
+      "art-7",
+      "draft",
+      "earths-crust",
+      "science-7"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T22:28:10Z",
+    "updated_at": "2026-10-31T13:21:41Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/MyPetRock/main/index.html"
+  },
+  {
+    "name": "WeatheringDesignChallenge",
+    "description": "Grade 7 STEAM design challenge (Explore the Land, Lesson 4 Extension): design a protective wind chime cover from recycled materials.",
+    "category": "Science 7",
+    "courses": [
+      {
+        "tag": "science-7",
+        "name": "Science 7"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/WeatheringDesignChallenge/",
+    "repo": "https://github.com/CDLI-NLSchools/WeatheringDesignChallenge",
+    "tags": [
+      "draft",
+      "earths-crust",
+      "science-7"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T22:28:23Z",
+    "updated_at": "2026-10-31T13:49:48Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/WeatheringDesignChallenge/main/index.html"
+  },
+  {
+    "name": "EconomicEmpowermentChoiceBoard",
+    "description": "Grade 7 STEAM choice board app: comic strip, digital poster, or pet rock photo essay planner for Explore the Land, Lesson 7 Extension.",
+    "category": "Visual Art 7",
+    "courses": [
+      {
+        "tag": "art-7",
+        "name": "Visual Art 7"
+      },
+      {
+        "tag": "science-7",
+        "name": "Science 7"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/EconomicEmpowermentChoiceBoard/",
+    "repo": "https://github.com/CDLI-NLSchools/EconomicEmpowermentChoiceBoard",
+    "tags": [
+      "art-7",
+      "draft",
+      "earths-crust",
+      "science-7"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T22:33:56Z",
+    "updated_at": "2026-10-31T13:21:43Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/EconomicEmpowermentChoiceBoard/main/index.html"
+  },
+  {
+    "name": "IdentityChart",
+    "description": "Grade 8 STEAM identity chart builder: students fill nine identity boxes and print their chart.",
+    "category": "Health 8",
+    "courses": [
+      {
+        "tag": "health-8",
+        "name": "Health 8"
+      },
+      {
+        "tag": "science-8",
+        "name": "Science 8"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/IdentityChart/",
+    "repo": "https://github.com/CDLI-NLSchools/IdentityChart",
+    "tags": [
+      "cells-tissues-organs",
+      "draft",
+      "health-8",
+      "science-8"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T22:35:18Z",
+    "updated_at": "2026-10-31T13:21:51Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/IdentityChart/main/index.html"
+  },
+  {
+    "name": "MapOfMe",
+    "description": "Grade 9 STEAM personal trait map: students star inherited traits and answer questions about heredity.",
+    "category": "Science 9",
+    "courses": [
+      {
+        "tag": "science-9",
+        "name": "Science 9"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/MapOfMe/",
+    "repo": "https://github.com/CDLI-NLSchools/MapOfMe",
+    "tags": [
+      "draft",
+      "reproduction",
+      "science-9"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T22:35:28Z",
+    "updated_at": "2026-10-31T13:20:56Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/MapOfMe/main/index.html"
+  },
+  {
+    "name": "CreateAMutant",
+    "description": "Grade 9 STEAM mutant designer: students mix and match features, draw a mutant, and answer questions about mutations.",
+    "category": "Science 9",
+    "courses": [
+      {
+        "tag": "science-9",
+        "name": "Science 9"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/CreateAMutant/",
+    "repo": "https://github.com/CDLI-NLSchools/CreateAMutant",
+    "tags": [
+      "draft",
+      "reproduction",
+      "science-9"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T22:35:37Z",
+    "updated_at": "2026-10-31T13:20:59Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/CreateAMutant/main/index.html"
+  },
+  {
+    "name": "DesignYourOwnPlanet",
+    "description": "Grade 9 STEAM, Beyond Our Planet, Lesson 6 extension: design a planet, with birth certificate, painting, moons, rings, printable profile.",
+    "category": "Science 9",
+    "courses": [
+      {
+        "tag": "science-9",
+        "name": "Science 9"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/DesignYourOwnPlanet/",
+    "repo": "https://github.com/CDLI-NLSchools/DesignYourOwnPlanet",
+    "tags": [
+      "draft",
+      "science-9",
+      "space"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T23:15:25Z",
+    "updated_at": "2026-10-31T13:49:54Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/DesignYourOwnPlanet/main/index.html"
+  },
+  {
+    "name": "HowTheMusicMovesYou",
+    "description": "Grade 9 STEAM, Beyond Our Planet, Lesson 8 extension: listening journal on Rocket Man, five songs that represent you, and an illustration.",
+    "category": "Music 9",
+    "courses": [
+      {
+        "tag": "music-9",
+        "name": "Music 9"
+      },
+      {
+        "tag": "science-9",
+        "name": "Science 9"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/HowTheMusicMovesYou/",
+    "repo": "https://github.com/CDLI-NLSchools/HowTheMusicMovesYou",
+    "tags": [
+      "draft",
+      "music-9",
+      "science-9",
+      "space"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T23:15:37Z",
+    "updated_at": "2026-10-31T13:49:56Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HowTheMusicMovesYou/main/index.html"
+  },
+  {
+    "name": "ChemistryDoodleChallenge",
+    "description": "Science 1206, Everyday Chemistry, Lesson 1 bonus: eight chemistry doodle cards with drawing spaces, captions, printable sheet.",
+    "category": "Science 1206",
+    "courses": [
+      {
+        "tag": "science-1206",
+        "name": "Science 1206"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/ChemistryDoodleChallenge/",
+    "repo": "https://github.com/CDLI-NLSchools/ChemistryDoodleChallenge",
+    "tags": [
+      "chemical-reactions",
+      "draft",
+      "science-1206"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-30T23:15:48Z",
+    "updated_at": "2026-10-31T13:49:58Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ChemistryDoodleChallenge/main/index.html"
+  },
+  {
+    "name": "UnitRateShowdown",
+    "description": "Math 2201 Unit Rate Showdown: students compare unit rates, handle whole-package and case constraints, and work backwards from a total.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/UnitRateShowdown/",
+    "repo": "https://github.com/CDLI-NLSchools/UnitRateShowdown",
+    "tags": [
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-31T18:40:14Z",
+    "updated_at": "2026-11-01T05:49:46Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/UnitRateShowdown/main/index.html"
+  },
+  {
+    "name": "SlopeIsARate",
+    "description": "Math 2201 Slope Is a Rate: students read segmented journey graphs, compute segment rates, and draw a graph for a described trip.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/SlopeIsARate/",
+    "repo": "https://github.com/CDLI-NLSchools/SlopeIsARate",
+    "tags": [
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-31T18:40:25Z",
+    "updated_at": "2026-11-01T05:49:51Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/SlopeIsARate/main/index.html"
+  },
+  {
+    "name": "ScaleDrawingStudio",
+    "description": "Math 2201 Scale Drawing Studio: students measure diagrams, state scale factors, and draw scale diagrams on a grid canvas.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/ScaleDrawingStudio/",
+    "repo": "https://github.com/CDLI-NLSchools/ScaleDrawingStudio",
+    "tags": [
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-31T21:08:03Z",
+    "updated_at": "2026-11-01T05:49:57Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ScaleDrawingStudio/main/index.html"
+  },
+  {
+    "name": "ScaleFactorExplorer",
+    "description": "Math 2201 Scale Factor Explorer: students vary k and watch area, surface area and volume respond, then recover k from ratios.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/ScaleFactorExplorer/",
+    "repo": "https://github.com/CDLI-NLSchools/ScaleFactorExplorer",
+    "tags": [
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-10-31T21:08:15Z",
+    "updated_at": "2026-11-01T05:50:01Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ScaleFactorExplorer/main/index.html"
+  },
+  {
+    "name": "TransversalLab",
+    "description": "Explore angle relationships on parallel lines cut by a transversal: name pairs, compute with reasons, judge parallel. Math 2201, Unit 8.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/TransversalLab/",
+    "repo": "https://github.com/CDLI-NLSchools/TransversalLab",
+    "tags": [
+      "angles-triangles",
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:20:15Z",
+    "updated_at": "2026-11-05T12:20:44Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/TransversalLab/main/index.html"
+  },
+  {
+    "name": "AngleChase",
+    "description": "Multi-step angle chases where every measure is earned with a reason, plus broken solutions to locate and correct. Math 2201 Unit 8.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/AngleChase/",
+    "repo": "https://github.com/CDLI-NLSchools/AngleChase",
+    "tags": [
+      "angles-triangles",
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:20:35Z",
+    "updated_at": "2026-11-05T12:20:47Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/AngleChase/main/index.html"
+  },
+  {
+    "name": "PolygonAngleLab",
+    "description": "Triangulate polygons to derive the interior angle sum rule, then run it both directions and on regular polygons. Math 2201 Unit 8.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/PolygonAngleLab/",
+    "repo": "https://github.com/CDLI-NLSchools/PolygonAngleLab",
+    "tags": [
+      "angles-triangles",
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:20:52Z",
+    "updated_at": "2026-11-05T12:20:49Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/PolygonAngleLab/main/index.html"
+  },
+  {
+    "name": "CongruenceConstructor",
+    "description": "Test which given parts force exactly one triangle, read congruence statements, and assemble and repair proofs. Math 2201 Unit 8.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/CongruenceConstructor/",
+    "repo": "https://github.com/CDLI-NLSchools/CongruenceConstructor",
+    "tags": [
+      "angles-triangles",
+      "draft",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:21:10Z",
+    "updated_at": "2026-11-05T12:20:52Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/CongruenceConstructor/main/index.html"
+  },
+  {
+    "name": "ConjectureLab",
+    "description": "Explore patterns, state a conjecture, test it, and revise it: inductive reasoning practice with a printable record. Math 2201 Unit 7.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/ConjectureLab/",
+    "repo": "https://github.com/CDLI-NLSchools/ConjectureLab",
+    "tags": [
+      "draft",
+      "inductive-deductive-reasoning",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:25:50Z",
+    "updated_at": "2026-11-05T12:20:54Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ConjectureLab/main/index.html"
+  },
+  {
+    "name": "CounterexampleHunter",
+    "description": "Hunt for the one case that breaks a claim: probe number claims, test rectangles, and repair broken claims. Math 2201 Unit 7.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/CounterexampleHunter/",
+    "repo": "https://github.com/CDLI-NLSchools/CounterexampleHunter",
+    "tags": [
+      "draft",
+      "inductive-deductive-reasoning",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:26:03Z",
+    "updated_at": "2026-11-05T12:20:57Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/CounterexampleHunter/main/index.html"
+  },
+  {
+    "name": "ProofBuilder",
+    "description": "Build deductive proofs step by step: assemble the steps, prove number tricks with symbols, create your own trick. Math 2201 Unit 7.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/ProofBuilder/",
+    "repo": "https://github.com/CDLI-NLSchools/ProofBuilder",
+    "tags": [
+      "draft",
+      "inductive-deductive-reasoning",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:26:16Z",
+    "updated_at": "2026-11-05T12:20:59Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ProofBuilder/main/index.html"
+  },
+  {
+    "name": "ProofAutopsy",
+    "description": "Dissect flawed proofs step by step: flag the fatal step, name the error, read the correction. Math 2201 Unit 7.",
+    "category": "Academic Mathematics 2201",
+    "courses": [
+      {
+        "tag": "math-2201",
+        "name": "Academic Mathematics 2201"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/ProofAutopsy/",
+    "repo": "https://github.com/CDLI-NLSchools/ProofAutopsy",
+    "tags": [
+      "draft",
+      "inductive-deductive-reasoning",
+      "math-2201"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-03T01:26:29Z",
+    "updated_at": "2026-11-05T12:21:02Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ProofAutopsy/main/index.html"
+  }
+]
