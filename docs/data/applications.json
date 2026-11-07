@@ -609,23 +609,5 @@
     "created_at": "2026-10-29T17:58:41Z",
     "updated_at": "2026-10-31T13:51:17Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/HistogramBuilder/main/index.html"
-  },
-  {
-    "name": "Math2202Review",
-    "description": "Practice question bank for Mathematics 2202 (Applied)",
-    "category": "Interactive",
-    "courses": [],
-    "status": "active",
-    "url": "https://cdli-nlschools.github.io/Math2202Review/",
-    "repo": "https://github.com/CDLI-NLSchools/Math2202Review",
-    "tags": [],
-    "creator": {
-      "login": "jasoncounsel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
-      "url": "https://github.com/jasoncounsel"
-    },
-    "created_at": "2026-11-07T23:54:13Z",
-    "updated_at": "2026-11-07T23:54:21Z",
-    "download_url": null
   }
 ]
