@@ -1253,9 +1253,13 @@
       "draft",
       "math-9"
     ],
-    "creator": null,
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
     "created_at": "2026-11-07T10:01:47Z",
-    "updated_at": "2026-11-07T10:01:53Z",
+    "updated_at": "2026-11-07T10:05:11Z",
     "download_url": null
   }
 ]
