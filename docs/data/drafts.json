@@ -1341,5 +1341,31 @@
     "created_at": "2026-11-07T21:23:36Z",
     "updated_at": "2026-11-07T21:24:17Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/Math8ReviewFrench/main/index.html"
+  },
+  {
+    "name": "Math7Review",
+    "description": "Mathematics 7 review app: generated practice questions, practice sheets and practice exams for the full course (Units 1 to 8).",
+    "category": "Mathematics 7",
+    "courses": [
+      {
+        "tag": "math-7",
+        "name": "Mathematics 7"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/Math7Review/",
+    "repo": "https://github.com/CDLI-NLSchools/Math7Review",
+    "tags": [
+      "draft",
+      "math-7"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-07T21:56:24Z",
+    "updated_at": "2026-11-07T21:56:31Z",
+    "download_url": null
   }
 ]
