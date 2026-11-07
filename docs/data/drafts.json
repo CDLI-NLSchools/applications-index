@@ -1261,5 +1261,31 @@
     "created_at": "2026-11-07T10:01:47Z",
     "updated_at": "2026-11-07T18:06:51Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/Math9Review/main/index.html"
+  },
+  {
+    "name": "Math8Review",
+    "description": "Generated practice question bank for Mathematics 8 (Newfoundland and Labrador).",
+    "category": "Mathematics 8",
+    "courses": [
+      {
+        "tag": "math-8",
+        "name": "Mathematics 8"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/Math8Review/",
+    "repo": "https://github.com/CDLI-NLSchools/Math8Review",
+    "tags": [
+      "draft",
+      "math-8"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-07T18:29:53Z",
+    "updated_at": "2026-11-07T18:29:58Z",
+    "download_url": null
   }
 ]
