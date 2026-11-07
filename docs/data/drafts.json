@@ -1420,5 +1420,31 @@
     "created_at": "2026-11-07T23:10:44Z",
     "updated_at": "2026-11-07T23:11:36Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/Math3202Review/main/index.html"
+  },
+  {
+    "name": "Math1202Review",
+    "description": "Practice question bank for Mathematics 1202 (Applied)",
+    "category": "Applied Mathematics 1202",
+    "courses": [
+      {
+        "tag": "math-1202",
+        "name": "Applied Mathematics 1202"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/Math1202Review/",
+    "repo": "https://github.com/CDLI-NLSchools/Math1202Review",
+    "tags": [
+      "draft",
+      "math-1202"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-07T23:32:19Z",
+    "updated_at": "2026-11-07T23:32:56Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/Math1202Review/main/index.html"
   }
 ]
