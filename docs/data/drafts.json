@@ -1367,5 +1367,32 @@
     "created_at": "2026-11-07T21:56:24Z",
     "updated_at": "2026-11-07T21:57:04Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/Math7Review/main/index.html"
+  },
+  {
+    "name": "Math7ReviewFrench",
+    "description": "Banque de questions d'entraînement générées pour Mathématiques 7 (Terre-Neuve-et-Labrador), version française pour l'immersion.",
+    "category": "Mathematics 7",
+    "courses": [
+      {
+        "tag": "math-7",
+        "name": "Mathematics 7"
+      }
+    ],
+    "status": "draft",
+    "url": "https://cdli-nlschools.github.io/Math7ReviewFrench/",
+    "repo": "https://github.com/CDLI-NLSchools/Math7ReviewFrench",
+    "tags": [
+      "draft",
+      "french-translation",
+      "math-7"
+    ],
+    "creator": {
+      "login": "jasoncounsel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
+      "url": "https://github.com/jasoncounsel"
+    },
+    "created_at": "2026-11-07T22:15:13Z",
+    "updated_at": "2026-11-07T22:15:19Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/Math7ReviewFrench/main/index.html"
   }
 ]
