@@ -834,7 +834,7 @@
     },
     "created_at": "2026-10-31T21:08:03Z",
     "updated_at": "2026-11-01T05:49:57Z",
-    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ScaleDrawingStudio/main/index.html"
+    "download_url": null
   },
   {
     "name": "ScaleFactorExplorer",
