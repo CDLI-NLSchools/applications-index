@@ -625,8 +625,8 @@
       "url": "https://github.com/jasoncounsel"
     },
     "created_at": "2026-11-12T02:42:10Z",
-    "updated_at": "2026-11-12T02:42:15Z",
-    "download_url": null
+    "updated_at": "2026-11-12T02:51:43Z",
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ReviewApps/main/index.html"
   },
   {
     "name": "Physics3204Review",
@@ -644,6 +644,6 @@
     },
     "created_at": "2026-11-12T02:42:16Z",
     "updated_at": "2026-11-12T02:42:23Z",
-    "download_url": null
+    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/Physics3204Review/main/index.html"
   }
 ]
