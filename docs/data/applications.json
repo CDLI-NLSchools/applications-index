@@ -627,23 +627,5 @@
     "created_at": "2026-11-12T02:42:10Z",
     "updated_at": "2026-11-12T02:51:43Z",
     "download_url": "https://raw.githubusercontent.com/cdli-nlschools/ReviewApps/main/index.html"
-  },
-  {
-    "name": "Physics3204Review",
-    "description": "Physics 3204 Review: forwards to the unified CDLI review app",
-    "category": "Interactive",
-    "courses": [],
-    "status": "active",
-    "url": "https://cdli-nlschools.github.io/Physics3204Review/",
-    "repo": "https://github.com/CDLI-NLSchools/Physics3204Review",
-    "tags": [],
-    "creator": {
-      "login": "jasoncounsel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/333485920?v=4",
-      "url": "https://github.com/jasoncounsel"
-    },
-    "created_at": "2026-11-12T02:42:16Z",
-    "updated_at": "2026-11-12T02:42:23Z",
-    "download_url": "https://raw.githubusercontent.com/cdli-nlschools/Physics3204Review/main/index.html"
   }
 ]
