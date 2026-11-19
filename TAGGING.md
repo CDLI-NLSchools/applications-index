@@ -15,6 +15,8 @@ grades 4–12, verified October 2026).
   - **L2 — unit/strand tag (recommended).** Narrows to the unit or strand the app
     targets, e.g. `kinematics`. Use the slugs listed below, not free text.
 - Non-curriculum apps (e.g. `drivers-license`) keep a plain descriptive tag.
+- Multi-course apps (one app spanning many courses, e.g. the Review Apps) carry
+  the `multi-course` scope tag instead of course tags.
 - Infrastructure repos (`applications-index`, `cdli-template-sim`, …) stay untagged.
 
 ## How to tag a new app
@@ -256,12 +258,21 @@ their own courses, distinct from Core French.
 - **Français:** `ecoute-production-orale`, `lecture-visionnement`, `ecriture-representation`, `valorisation-langue`
 - **Social Studies:** use unit slugs only where listed for the course in eNLightenED; otherwise course tag alone.
 
+## Scope tags
+
+These topics describe an app's span, not what it teaches.
+
+| Tag | Meaning |
+|---|---|
+| `multi-course` | One app that serves many courses rather than tying to a single course (e.g. the Review Apps, one shell with per-course banks for 29 courses). It carries this tag instead of course tags and is exempt from the L1 course-tag requirement. It says nothing about curriculum alignment: a multi-course app is curriculum practice across every course it serves. |
+
 ## Non-curriculum tags
 
 Descriptive lowercase-hyphen tags for apps outside the curriculum, e.g.
-`drivers-license`. Add the `non-curriculum` tag to any app that isn't tied to a
-course, so it stays visibly separate from curriculum-tagged apps. Keep these
-rare — prefer curriculum tags.
+`drivers-license`. Add the `non-curriculum` tag only to an app that isn't tied
+to any course at all, so it stays visibly separate from curriculum-tagged apps.
+Keep these rare — prefer curriculum tags. An app that spans many courses is
+not non-curriculum; use the `multi-course` scope tag instead.
 
 ## Language tags
 
